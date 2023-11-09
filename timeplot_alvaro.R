@@ -14,7 +14,7 @@ shapefile = read_sf(dsn ="base_files", layer= "tl_2022_51_bg")
 health_POIs = read.csv('HealthPOIs_Montgomery_VA 2.csv')
 
 #Read in the time series data
-time_data = read.csv("healthcarevisits_VA.csv")
+time_data = read.csv("healthcarevisits_VA_new.csv")
 #remove records where nobody visited the corresponding healthcare facility
 #subset: will indicate which rows to keep
 #is.na: not available (since ! is before it would be available)
