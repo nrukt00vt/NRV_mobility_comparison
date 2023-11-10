@@ -8,7 +8,7 @@ library(ggplot2)
 #read_sf: will read simple features, including shapefile
 #dsn: data source name
 #layer: combination of data, stat and geometry with a potential position adjustment
-shapefile = read_sf(dsn ="base_files", layer= "tl_2022_51_bg")
+shapefile = read_sf(dsn ="base_files", layer= "tl_2019_51_bg")
 
 #read.csv: will read a certain file, data input
 health_POIs = read.csv('HealthPOIs_Montgomery_VA 2.csv')
