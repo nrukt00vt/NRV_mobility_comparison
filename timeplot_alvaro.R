@@ -8,7 +8,7 @@ library(ggplot2)
 #read_sf: will read simple features, including shapefile
 #dsn: data source name
 #layer: combination of data, stat and geometry with a potential position adjustment
-shapefile = read_sf(dsn ="base_files", layer= "tl_2019_51_bg")
+#shapefile = read_sf(dsn ="base_files", layer= "tl_2019_51_bg")
 
 #read.csv: will read a certain file, data input
 health_POIs = read.csv('HealthPOIs_Montgomery_VA 2.csv')
@@ -22,6 +22,10 @@ time_data = subset(time_data, !is.na(time_data$visitor_home_cbg))
 #merge the dataset with the locations & types of the healthcare facilities
 time_data_merged = merge(time_data,health_POIs,
 by.x="safegraph_place",by.y="safegraph_place_id")
+
+
+#You'll want to make two plots, one with every NAICS code, and then one with the "grouped" NAICS codes, which we will create below:
+time_data_merged$naics_group = substr(time_data_merged$naics_code, 1, 2)
 
 
 #Aggregate by NAICS code; this means we will sum up all the different doctors for each NAICS code to get one result per NAICS code
