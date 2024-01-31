@@ -15,6 +15,16 @@ time_data = subset(time_data, !is.na(time_data$visitor_home_cbg))
 #merge the dataset with the locations & types of the healthcare facilities - combining the two sets of data together
 time_data_merged = merge(time_data,health_POIs,by.x="safegraph_place",by.y="safegraph_place_id")
 
+#### Another option is you could split up between nova and swva
+#### To do this, we'll create a new variable 
+
+#### NOVA cities: Leesburg, Lansdowne
+#### SWVA cities: Blacksburg, Merrimac, Dublin, Christiansburg, Radford, Fairlawn, Shawsville
+
+time_data_merged$region = ""
+
+time_data_merged$region[time_data_merged$city == "Leesburg"] = "NoVA"
+
 
 #Aggregate by NAICS code; this means we will sum up all the different doctors for each NAICS code to get one result per NAICS code - sums the totals for NAICS
 NAICS_aggregate = aggregate(time_data_merged$number , by=list(time_data_merged$date,time_data_merged$city), FUN = sum)
