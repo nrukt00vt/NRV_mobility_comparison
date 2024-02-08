@@ -15,17 +15,6 @@ time_data = subset(time_data, !is.na(time_data$visitor_home_cbg))
 #merge the dataset with the locations & types of the healthcare facilities - combining the two sets of data together
 time_data_merged = merge(time_data,health_POIs,by.x="safegraph_place",by.y="safegraph_place_id")
 
-#### Another option is you could split up between nova and swva
-#### To do this, we'll create a new variable 
-
-#### NOVA cities: Leesburg, Lansdowne
-#### SWVA cities: Blacksburg, Merrimac, Dublin, Christiansburg, Radford, Fairlawn, Shawsville
-NOVA<-c(Leesburg,Lansdowne)
-SWVA<-c(Blacksburg, Merrimac, Dublin, Christiansburg, Radford, Fairlawn, Shawsville)
-
-time_data_merged$region = ""
-
-time_data_merged$region[time_data_merged$city == "Leesburg"] = "NoVA"
 
 
 #Aggregate by NAICS code; this means we will sum up all the different doctors for each NAICS code to get one result per NAICS code - sums the totals for NAICS
@@ -38,15 +27,33 @@ names(NAICS_aggregate) = c("date","city","num")
 
 #The way we are normalizing is by dividing each number by the median number of trips to that NAICS code; therefore the output number can be represented as "% of trips compared to median"
 #2 means 2x as many trips as median, .5 means half as many, etc. - this changes the count to % and this is done for each NAICS
-unique_codes = unique(NAICS_aggregate$NAICS)
+unique_codes = unique(NAICS_aggregate$city)
 NAICS_data = data.frame()
 for (code in unique_codes){
-  sub_data = subset(NAICS_aggregate, NAICS == code)
+  sub_data = subset(NAICS_aggregate, city == code)
   sub_data$num_normalized = sub_data$num / median(sub_data$num)
   NAICS_data = rbind(NAICS_data, sub_data)
 }
 
 #Plotting
 NAICS_data$date = as.Date(NAICS_data$date)
-NAICS_data$NAICS = as.factor(NAICS_data$NAICS)
-ggplot() + geom_line(data=NAICS_data, mapping = aes(x=date, y = num_normalized, colour = NAICS , group = NAICS)) + scale_colour_brewer(palette="Set1")
+NAICS_data$NAICS = as.factor(NAICS_data$city)
+ggplot() + geom_line(data=NAICS_data, mapping = aes(x=date, y = num_normalized, colour = city , group = city)) + scale_colour_brewer(palette="Set1")
+
+
+#### Another option is you could split up between nova and swva
+#### To do this, we'll create a new variable 
+
+#### NOVA cities: Leesburg, Lansdowne
+#### SWVA cities: Blacksburg, Merrimac, Dublin, Christiansburg, Radford, Fairlawn, Shawsville
+NOVA<-c("Leesburg","Lansdowne")
+SWVA<-c("Blacksburg", "Merrimac", "Dublin", "Christiansburg", "Radford", "Fairlawn", "Shawsville")
+
+time_data_merged$region = ""
+is.element(time_data_merged$city, NOVA)
+
+time_data_merged$city[is.element(time_data_merged$city, NOVA)]
+
+time_data_merged$region[is.element(time_data_merged$city, NOVA)] = "NOVA"
+time_data_merged$region[is.element(time_data_merged$city, SWVA)] = "SWVA"
+table(time_data_merged$region)
