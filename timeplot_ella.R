@@ -20,6 +20,8 @@ time_data_merged = merge(time_data,health_POIs,by.x="safegraph_place",by.y="safe
 
 #### NOVA cities: Leesburg, Lansdowne
 #### SWVA cities: Blacksburg, Merrimac, Dublin, Christiansburg, Radford, Fairlawn, Shawsville
+NOVA<-c(Leesburg,Lansdowne)
+SWVA<-c(Blacksburg, Merrimac, Dublin, Christiansburg, Radford, Fairlawn, Shawsville)
 
 time_data_merged$region = ""
 
