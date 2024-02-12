@@ -57,9 +57,21 @@ time_data_merged$region[is.element(time_data_merged$city, NOVA)] = "NOVA"
 time_data_merged$region[is.element(time_data_merged$city, SWVA)] = "SWVA"
 table(time_data_merged$region)
 
+# 2/12: We need to aggregate so that we sum up all trips to any doctor on each date, for SWVA and NOVA
+# aggregate works by aggregating the first argument, then a list of aggregating variables in a "by" argument, then a function that specifies how the aggregation should be done
+NAICS_aggregate = aggregate(time_data_merged$number, by = list(time_data_merged$region, time_data_merged$date), FUN = sum)
+names(NAICS_aggregate) = c("region","date","number")
+
 #turn this into region based
 NAICS_data = data.frame()
-for (code in "NOVA""SWVA"){
+# 
+# for (code in unique(NAICS_aggregate$region)){
+#   print(code)
+#   sub_data = subset(NAICS_aggregate, region == code)
+#   sub_data$num_normalized = sub_data$num / median(sub_data$num)
+#   NAICS_data = rbind(NAICS_data, sub_data)
+# }
+for (code in c("NOVA","SWVA")){
   sub_data = subset(NAICS_aggregate, region == code)
   sub_data$num_normalized = sub_data$num / median(sub_data$num)
   NAICS_data = rbind(NAICS_data, sub_data)
