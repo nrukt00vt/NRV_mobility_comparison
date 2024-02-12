@@ -16,7 +16,6 @@ time_data = subset(time_data, !is.na(time_data$visitor_home_cbg))
 time_data_merged = merge(time_data,health_POIs,by.x="safegraph_place",by.y="safegraph_place_id")
 
 
-
 #Aggregate by NAICS code; this means we will sum up all the different doctors for each NAICS code to get one result per NAICS code - sums the totals for NAICS
 NAICS_aggregate = aggregate(time_data_merged$number , by=list(time_data_merged$date,time_data_merged$city), FUN = sum)
 names(NAICS_aggregate) = c("date","city","num")
@@ -57,3 +56,17 @@ time_data_merged$city[is.element(time_data_merged$city, NOVA)]
 time_data_merged$region[is.element(time_data_merged$city, NOVA)] = "NOVA"
 time_data_merged$region[is.element(time_data_merged$city, SWVA)] = "SWVA"
 table(time_data_merged$region)
+
+#turn this into region based
+NAICS_data = data.frame()
+for (code in "NOVA""SWVA"){
+  sub_data = subset(NAICS_aggregate, region == code)
+  sub_data$num_normalized = sub_data$num / median(sub_data$num)
+  NAICS_data = rbind(NAICS_data, sub_data)
+}
+
+#Plotting
+NAICS_data$date = as.Date(NAICS_data$date)
+NAICS_data$NAICS = as.factor(NAICS_data$region)
+ggplot() + geom_line(data=NAICS_data, mapping = aes(x=date, y = num_normalized, colour = region , group = region)) + scale_colour_brewer(palette="Set1")
+
