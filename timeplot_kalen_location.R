@@ -18,7 +18,7 @@ time_data_merged = merge(time_data,health_POIs,by.x="safegraph_place",by.y="safe
 
 
 #Subset the data so that you only have the 3 desired locations; below will subset just one as an example
-time_data_merged = subset(time_data_merged, is.element(location_name, c("Ankrum Michael J Dr","Southwest Podiatry")))
+time_data_merged = subset(time_data_merged, is.element(location_name, c("Radford City Health Department","Montgomery County Health Department","Sears Home Services")))
 
 #Aggregate by NAICS code; this means we will sum up all the different doctors for each NAICS code to get one result per NAICS code
 NAICS_aggregate = aggregate(time_data_merged$number , by=list(time_data_merged$date,time_data_merged$location_name), FUN = sum)
