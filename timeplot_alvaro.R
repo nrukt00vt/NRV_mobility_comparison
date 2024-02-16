@@ -25,7 +25,29 @@ by.x="safegraph_place",by.y="safegraph_place_id")
 
 
 #You'll want to make two plots, one with every NAICS code, and then one with the "grouped" NAICS codes, which we will create below:
-time_data_merged$naics_group = substr(time_data_merged$naics_code, 1, 2)
+
+# Plot with every NAICS code
+NAICS_data$naics_group <- substr(NAICS_data$NAICS, 1, 2)
+ggplot(data = NAICS_data, aes(x = date, y = num_normalized, colour = NAICS, group = NAICS)) +
+  geom_line() +
+  scale_colour_brewer(palette = "Set1") +
+  labs(title = "Visits to Healthcare Facilities by NAICS Code",
+       x = "Date",
+       y = "Number of Visits",
+       colour = "NAICS Code") +
+  theme_minimal()
+
+# Grouped plot with NAICS codes
+ggplot(data = NAICS_data, aes(x = date, y = num_normalized, colour = naics_group, group = naics_group)) +
+  geom_line() +
+  scale_colour_brewer(palette = "Set1") +
+  labs(title = "Visits to Healthcare Facilities by Grouped NAICS Code",
+       x = "Date",
+       y = "Number of Visits",
+       colour = "Grouped NAICS Code") +
+  theme_minimal()
+
+
 
 
 #Aggregate by NAICS code; this means we will sum up all the different doctors for each NAICS code to get one result per NAICS code
@@ -64,9 +86,4 @@ NAICS_data$NAICS = as.factor(NAICS_data$NAICS)
 ggplot() + geom_line(data=NAICS_data, mapping = aes(x=date,
 y = num_normalized, colour = NAICS , group = NAICS)) + scale_colour_brewer(palette="Set1")
 
-# A few ideas pop to mind regarding the plot as a whole
-# Could write a line of code that returns the lowest NAICS value, which "could" determine when people stopped going to each place
-# With that line of could, an inference could be determined about whether people stopped going to each place at the same time or not.
-mini <- NAICS_data$num_normalized
 
-# This is just a start ill try to figure something out for this over the week.
