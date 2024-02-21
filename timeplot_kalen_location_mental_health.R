@@ -18,7 +18,7 @@ time_data_merged = merge(time_data,health_POIs,by.x="safegraph_place",by.y="safe
 
 
 #Subset the data so that you only have the 3 desired locations; below will subset just one as an example
-time_data_merged = subset(time_data_merged, is.element(location_name, c("Montgomery County Health Department","Sears Home Services")))
+time_data_merged = subset(time_data_merged, is.element(location_name, c("Radford City Health Department","Montgomery County Health Department","Sears Home Services")))
 
 #Aggregate by NAICS code; this means we will sum up all the different doctors for each NAICS code to get one result per NAICS code
 NAICS_aggregate = aggregate(time_data_merged$number , by=list(time_data_merged$date,time_data_merged$location_name), FUN = sum)
@@ -47,3 +47,4 @@ ggplot() + geom_line(data=NAICS_data, mapping = aes(x=date, y = num_normalized, 
 
 #not sure if possible with given data, but could think about mapping individuals to see if one person made a trip to a healthcare facility multiple times
 #could do research and see if there were any Covid-19 spikes in the NRV area and see if it correlates with any of the spikes or drops in visits during the time period
+

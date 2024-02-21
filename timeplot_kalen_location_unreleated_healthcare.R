@@ -47,3 +47,4 @@ ggplot() + geom_line(data=NAICS_data, mapping = aes(x=date, y = num_normalized, 
 
 #not sure if possible with given data, but could think about mapping individuals to see if one person made a trip to a healthcare facility multiple times
 #could do research and see if there were any Covid-19 spikes in the NRV area and see if it correlates with any of the spikes or drops in visits during the time period
+
