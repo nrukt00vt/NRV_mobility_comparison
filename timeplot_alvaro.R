@@ -73,6 +73,25 @@ ggplot(data = NAICS_data, aes(x = date, y = num_normalized, color = naics_group,
        color = "NAICS Code") +
   theme_minimal()
 
+NAICS_data$agg_group = substr(NAICS_data$naics_group,1,2)
+
+
+
+# Grouped plot with NAICS codes
+aggregated_data <- NAICS_data %>%
+  group_by(date,agg_group) %>%
+  summarise(total_num_normalized = mean(num_normalized))
+
+# Plot aggregated data
+ggplot(data = aggregated_data, aes(x = date, y = total_num_normalized, color = agg_group, group = agg_group)) +
+  geom_line() +
+  labs(title = "Average Visits to Healthcare Facilities",
+       x = "Date",
+       y = "Average Number of Visits") +
+  theme_minimal()
+
+
+
 # Grouped plot with NAICS codes
 aggregated_data <- NAICS_data %>%
   group_by(date) %>%
