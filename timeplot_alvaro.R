@@ -64,8 +64,8 @@ ggplot() + geom_line(data=NAICS_data, mapping = aes(x=date,
 
 
 
-# my attempt at plotting all NAICS codes
-ggplot(data = NAICS_data, aes(x = date, y = num_normalized, color = naics_group, group = naics_group)) +
+#plot all data
+ggplot(data = NAICS_data, aes(x = date, y = num_normalized, color = NAICS, group = NAICS)) +
   geom_line() +
   labs(title = "Visits to Healthcare Facilities by NAICS Code",
        x = "Date",
@@ -73,16 +73,12 @@ ggplot(data = NAICS_data, aes(x = date, y = num_normalized, color = naics_group,
        color = "NAICS Code") +
   theme_minimal()
 
-NAICS_data$agg_group = substr(NAICS_data$naics_group,1,2)
-
-
-
-# Grouped plot with NAICS codes
+# Plot aggregated data
+NAICS_data$agg_group = substr(NAICS_data$NAICS,1,2)
 aggregated_data <- NAICS_data %>%
   group_by(date,agg_group) %>%
   summarise(total_num_normalized = mean(num_normalized))
 
-# Plot aggregated data
 ggplot(data = aggregated_data, aes(x = date, y = total_num_normalized, color = agg_group, group = agg_group)) +
   geom_line() +
   labs(title = "Average Visits to Healthcare Facilities",
@@ -92,13 +88,12 @@ ggplot(data = aggregated_data, aes(x = date, y = total_num_normalized, color = a
 
 
 
-# Grouped plot with NAICS codes
-aggregated_data <- NAICS_data %>%
+# Plot mean data
+mean_data <- NAICS_data %>%
   group_by(date) %>%
   summarise(total_num_normalized = mean(num_normalized))
 
-# Plot aggregated data
-ggplot(data = aggregated_data, aes(x = date, y = total_num_normalized)) +
+ggplot(data = mean_data, aes(x = date, y = total_num_normalized)) +
   geom_line() +
   labs(title = "Average Visits to Healthcare Facilities",
        x = "Date",
