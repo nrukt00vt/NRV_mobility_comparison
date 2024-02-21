@@ -64,29 +64,26 @@ ggplot() + geom_line(data=NAICS_data, mapping = aes(x=date,
 
 
 
-
-# Plot with every NAICS code
-NAICS_data$naics_group <- NAICS_data$NAICS
-ggplot(data = NAICS_data, aes(x = date, y = num_normalized, colour = naics_group, group = naics_group)) +
+# my attempt at plotting all NAICS codes
+ggplot(data = NAICS_data, aes(x = date, y = num_normalized, color = naics_group, group = naics_group)) +
   geom_line() +
-  scale_colour_brewer(palette = "Set1") +
   labs(title = "Visits to Healthcare Facilities by NAICS Code",
        x = "Date",
        y = "Number of Visits",
-       colour = "NAICS Code") +
+       color = "NAICS Code") +
   theme_minimal()
 
 # Grouped plot with NAICS codes
 aggregated_data <- NAICS_data %>%
   group_by(date) %>%
-  summarise(total_num_normalized = sum(num_normalized))
+  summarise(total_num_normalized = mean(num_normalized))
 
-# Plot aggregated dataa
+# Plot aggregated data
 ggplot(data = aggregated_data, aes(x = date, y = total_num_normalized)) +
   geom_line() +
-  labs(title = "Total Visits to Healthcare Facilities",
+  labs(title = "Average Visits to Healthcare Facilities",
        x = "Date",
-       y = "Total Number of Visits") +
+       y = "Average Number of Visits") +
   theme_minimal()
 
 
