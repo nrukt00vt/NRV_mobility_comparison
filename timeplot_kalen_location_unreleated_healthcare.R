@@ -18,12 +18,16 @@ time_data_merged = merge(time_data,health_POIs,by.x="safegraph_place",by.y="safe
 
 
 #Subset the data so that you only have the 3 desired locations; below will subset just one as an example
-time_data_merged = subset(time_data_merged, is.element(location_name, c("Montgomery County Health Department","Sears Home Services")))
+#time_data_merged = subset(time_data_merged, is.element(location_name, c("Loudoun Women's Healthcare Associates","Society of Radiologists & Ultrasound","Gastroenterolgoy & Hepatology Center","Hancock Orthodontics","New River Dermatology","Farhi Vision & Glaucoma Specialists","Aesthetica Cosmetic Surgery & Laser Center")))
 
 #Aggregate by NAICS code; this means we will sum up all the different doctors for each NAICS code to get one result per NAICS code
 NAICS_aggregate = aggregate(time_data_merged$number , by=list(time_data_merged$date,time_data_merged$location_name), FUN = sum)
 names(NAICS_aggregate) = c("date","location","num")
+average_trips = NAICS_aggregate %>% group_by(location) %>% summarise(average = mean(num))
+locations_enough_data = average_trips$location[which(average_trips$average > 15)]
 
+health_POIs_enough_data = subset(health_POIs, is.element(location_name,locations_enough_data))
+write.csv(health_POIs_enough_data,"health_POIs_with_data.csv")
 #Here, we will normalize the values per NAICS code. If we tried to plot them without doing this, we would have some numbers way greater than others 
 #For example, the average number of people visiting NAICS 621111 (physicians) is 1-2K, whilethe average number visiting 621340 (physical/occupational/speech therapists) is more like 100
 #If we don't normalize, we won't be able to see the therapists numbers because the physician numbers are so high.

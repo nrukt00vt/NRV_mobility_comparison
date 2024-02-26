@@ -1,0 +1,344 @@
+"","placekey","safegraph_place_id","location_name","street_address","city","naics_code","latitude","longitude","postal_code"
+"3","222-222@63f-yc2-d7q","sg:97b7ddc3493841f6890db56bfdb890e7","The Farmhouse Restaurant","285 Ridinger St","Christiansburg",722511,37.153422,-80.421832,24073
+"6","22c-223@63f-yry-6x5","sg:dc7b38daa91645fb93289aa0e4d26017","7-Eleven","1350 N Main St","Blacksburg",445120,37.245967,-80.414612,24060
+"8","222-222@63f-yc3-m8v","sg:87bd071c14994d23a4995f8ec46bab71","LewisGale Physicians","825 Davis St","Merrimac",621111,37.187657,-80.414849,24060
+"16","226-222@63r-ss2-8y9","sg:fc3f51f284de49bbb2321ca68a839101","Lin's James Cafe","671 Potomac Station Dr NE","Leesburg",722511,39.099518,-77.526134,20176
+"27","22p-223@63r-sy9-nh5","sg:191213d3d8874a83bba8f7ea3955cc15","T'KiLa Mexican Kitchen & Bar","19345 Promenade Dr","Lansdowne",722511,39.081599,-77.495297,20176
+"33","zzz-222@63f-yj4-wx5","sg:55d67dc0eda64611bd9299db7ce7bbae","Lions Club Park","Dunlap Rd","Dublin",712190,37.102241,-80.676193,24084
+"36","222-222@63r-sy9-p5f","sg:33a55f33d72142a4b045d10ccd992a3b","Seldens Landing Elem","43345 Coton Commons Dr","Lansdowne",611110,39.083584,-77.501191,20176
+"37","zzw-222@63f-wgh-9cq","sg:0d57be80928943a2a48eaa0c89394d28","Zoës Kitchen","1560 S Main St","Blacksburg",722511,37.213379,-80.400649,24060
+"41","222-222@63f-ybf-m6k","sg:f946d03be95144ffb067e9ed1a9dcb6f","New River Dermatology","2617 Sheffield Dr","Blacksburg",621111,37.219012,-80.451688,24060
+"42","zzz-222@63f-ybq-bkz","sg:90ab25ba88414679af367583c1738bea","Spring Lot","401 Clay St SE","Blacksburg",712190,37.229539,-80.408522,24060
+"46","222-222@63f-rt7-kxq","sg:21ce701ed60e4815afa7c93bc2940e45","Auburn High","1650 Auburn School Dr","Riner",611110,37.059646,-80.443598,24149
+"47","227-222@63r-ss3-snq","sg:28693622d3ce4f71a529f6d21278f991","Inova","211 Gibson St NW Ste 220","Leesburg",621111,39.119942,-77.568847,20176
+"48","223-222@63f-ybq-nqz","sg:472af76c97ab483786ec2e1c5bef988b","Hokie House","322 N Main St","Blacksburg",722511,37.231368,-80.415438,24060
+"51","222-222@63f-yc2-bx5","sg:9bd8252159174183978fe2c73afd2759","Texas Roadhouse","100 Bradley Dr","Christiansburg",722511,37.162563,-80.426346,24073
+"52","224-223@63r-ss2-bx5","sg:a2633b1ff9b849c28f7da6127226252c","Leesburg Bright Dental","552 Fort Evans Rd Ste 100","Leesburg",621210,39.104959,-77.526517,20176
+"54","223-222@63r-ss2-8y9","sg:e63fbd5cb12046da8c2d3a75ec493550","Moe's Southwest Grill","667 Potomac Station Dr NE","Leesburg",722511,39.099369,-77.526089,20176
+"56","zzw-222@63f-tx5-yn5","sg:1f14f29a183f43aa9f9aa8cd7523d840","FATZ","4586 Alexander Farm Rd","Dublin",722511,37.080895,-80.692412,24084
+"60","226-222@63r-syc-2hq","sg:344406d191204b9990339956aecec544","Inova","44055 Riverside Pkwy Ste 118","Lansdowne",621111,39.073999,-77.477833,20176
+"62","222-222@63f-y9z-pn5","sg:40c36df2bdfe473bb712351280e328f0","Highlander Pizza","700 E Main St","Radford",722511,37.138043,-80.545624,24141
+"65","222-223@63r-srx-sh5","sg:a84f25eaa63340e4b01ece672df85e59","Leesburg Elem","323 Plaza St NE","Leesburg",611110,39.120574,-77.549347,20176
+"66","223-222@63f-rvy-47q","sg:5b13e76d2e074c32aa49a3a38aba6131","Due South BBQ","1465 Roanoke St","Christiansburg",722511,37.132179,-80.380363,24073
+"73","zzy-222@63f-rt7-pjv","sg:09e5b9b38a6c48ea9848e75599334ff2","Auburn Middle","4069 Riner Rd","Riner",611110,37.062455,-80.442337,24149
+"74","224-222@63f-ybv-ju5","sg:b0dd560ea15c4de9a975939ab330ea32","Kohl's","782 New River Rd Ste 300","Christiansburg",452210,37.166864,-80.428372,24073
+"75","226-222@63f-s4m-52k","sg:2e978680d9954ce2a14429dac06a5957","Deli Mart","2307 W Main St","Radford",445120,37.111596,-80.590125,24141
+"76","zzz-222@63f-ybp-mtv","sg:34995501bc40494d8112f28638e99406","MarciaS Park","200 Clay St SW","Blacksburg",712190,37.226799,-80.412879,24060
+"79","223-222@63f-ybv-nwk","sg:20ccd742223640ac89ba13657ba8705d","Ross Stores","125 Shoppers Way","Christiansburg",452210,37.167603,-80.424676,24073
+"83","226-222@63r-syb-mrk","sg:e4cf311fca554f289ab814d75617232e","Reston Pediatric Associates","44160 Scholar Plz Ste 450","Lansdowne",621111,39.069341,-77.47353,20176
+"87","zzy-222@63r-syc-2hq","sg:bd537848cce7430e94c602c527e83fb3","Inova","44045 Riverside Pkwy Emergency Room","Lansdowne",621111,39.074042,-77.477513,20176
+"89","223-222@63f-yc2-cbk","sg:5ab177aba30641bab383ddb04bdf4f36","Asian Cafe","200 Marshall Dr","Christiansburg",722511,37.162251,-80.425119,24073
+"90","zzy-222@63f-ybp-ysq","sg:3795b30e42164269bd7026c2df7fa621","Turner Place","Lavery Hall","Blacksburg",722511,37.231003,-80.422739,24060
+"91","22d-222@63r-sry-s89","sg:86911794840946279a34af93dec5baff","Taipei Cafe","946 Edwards Ferry Rd NE","Leesburg",722511,39.115758,-77.540889,20176
+"92","zzw-223@63r-sry-zfz","sg:b3b102fed0cf44879d4317f4b34669f5","Frances Hazel Reid Elem","800 N King St","Leesburg",611110,39.131099,-77.549841,20176
+"95","222-222@63f-s3q-v4v","sg:80f950cdf0b74fd6bf86517fae3fbfe5","Little River Grill","2395 Tyler Rd","Christiansburg",722511,37.099498,-80.512421,24073
+"101","222-224@63f-ybn-87q","sg:84cbb71152c1497b9be56b069735fc30","Kroger","903 University City Blvd","Blacksburg",445110,37.235548,-80.434986,24060
+"102","223-223@63f-wgj-8y9","sg:dab117983cee4eedaf9ad95b58077fec","Ninja Cafe","1200 S Main St","Blacksburg",722511,37.219044,-80.403208,24060
+"107","zzw-226@63r-srr-nwk","sg:2b12c241bd94430ab78509382bf93841","Inova","51 Catoctin Cir NE","Leesburg",621111,39.112024,-77.553917,20176
+"112","22c-222@63f-ybq-mp9","sg:020017ec0cb046bb9a234e0956377e38","Italiano's","610 N Main St","Blacksburg",722511,37.234136,-80.418704,24060
+"113","226-222@63f-yc3-m8v","sg:e9e8a9570f1a49aeb680770a12d6cd46","Lewis Gale Physicians","825 Davis St Ste A","Merrimac",621111,37.187679,-80.414819,24060
+"115","222-222@63f-ybq-4y9","sg:295443113f8c4a0189f49b84fd5f0c42","Hahn Horticulture Garden","200 Garden Ln","Blacksburg",712130,37.219196,-80.424195,24061
+"118","22d-224@63r-syc-2hq","sg:589c29f56acf470b9d65fc86b7f1451c","Inova","44045 Riverside Pkwy Ste 108","Lansdowne",621111,39.074045,-77.477515,20176
+"119","zzy-225@63f-tx4-xqz","sg:6f8d2cef6fce4472911012a41bf03975","Carilion Clinic Family Medicine Dublin","118 Broad St","Dublin",621111,37.103702,-80.688501,24084
+"124","223-223@63f-ybn-kxq","sg:54fa55474fb84e5ebde487e46d18bc65","Deli Mart","809 Glade Rd","Blacksburg",445120,37.234623,-80.436876,24060
+"125","zzz-222@63f-rvr-rkz","sg:80c78c87632e46c4ba1b353edc533d7b","Kiwanis Park","310 Kiwanis Ln SE","Christiansburg",712190,37.129493,-80.390074,24073
+"127","227-225@63f-ybq-p35","sg:20795ba96d0c4659aca5754e69c5f929","Buffalo Wild Wings","460 Turner St NW","Blacksburg",722511,37.233503,-80.422892,24060
+"128","224-222@63r-ss2-3qz","sg:c291147c558d4c1ca9a04b8e092c47ad","Buffalo Wild Wings","524 Fort Evans Rd","Leesburg",722511,39.106948,-77.52913,20176
+"129","222-222@63f-tx8-59f","sg:73cda767736e462ca28a84cc14d4b209","Pulaski Governor's Stem Academy","5414 Cougar Trail Rd","Dublin",611110,37.094469,-80.718637,24084
+"131","zzw-222@63r-ss2-47q","sg:518f8359b73b451ba4c8d738a0c6708c","Sakura Japanese Steak Searood & Sushi","516 Fort Evans Rd","Leesburg",722511,39.10773,-77.52922,20176
+"132","229-223@63f-yb4-zs5","sg:c101ba78a64e42eab114447ab44b79a5","The Tie Dyed Pig","103 3rd Ave","Radford",722511,37.140541,-80.557958,24141
+"135","222-222@63f-ybv-85f","sg:44f6fe23fa6a47b2a708c269be2feb72","O'Charley's","150 Laurel St","Christiansburg",722511,37.162307,-80.419816,24073
+"136","zzz-222@63r-syn-52k","sg:5218dedbd66a4752973f8f15a3067b32","Red Rock Wilderness Overlook Regional Park","43098 Edwards Ferry Rd Leesburg Va 20176","Leesburg",712190,39.112658,-77.509473,20176
+"138","zzw-224@63r-ss3-qs5","sg:462c122edb084f26b2af16745d2afe3d","Cocina on Market","7 W Market St","Leesburg",722511,39.115502,-77.565069,20176
+"141","zzw-222@63f-wgz-89z","sg:feec96ec84754c71a5c745768b78b346","Ruby Tuesday","2380 Roanoke St","Christiansburg",722511,37.136934,-80.361695,24073
+"142","224-222@63f-yb4-jgk","sg:8ba111fa1b1241e8a2bae89314bd33f5","Fu Lin","7440 Lee Hwy","Fairlawn",722511,37.142718,-80.581641,24141
+"144","zzw-222@63r-srz-q4v","sg:a03b9a05d9814b5a921c246a0dda582e","Del Rio Restaurant","701 E Market St","Leesburg",722511,39.106694,-77.549113,20176
+"145","226-222@63f-ybp-kzz","sg:02e01613058144ddbac27a8a5a743529","7-Eleven","100 Draper Rd SW","Blacksburg",445120,37.228661,-80.414307,24060
+"146","223-223@63f-rsc-mhq","sg:1d4af9bc738649cbb7587b1c6977eec5","Pilot Mountain Grocery","4553 Pilot Rd","Pilot",445120,37.059061,-80.374228,24138
+"149","zzw-222@63f-ybv-4n5","sg:980eb940e0e44c698645b175280869cb","Xtreme Springz Trampoline Park","200 Midway Plaza Dr NW","Christiansburg",712190,37.175445,-80.422797,24073
+"158","zzw-223@63r-sry-kcq","sg:e409684c15d748fbbd7d83a1b3c2171c","7-Eleven","700 Fieldstone Dr NE","Leesburg",445120,39.125708,-77.546599,20176
+"160","237-222@63r-sy9-mzf","sg:1600e49e6b954902a2d1e525b5f8b194","Bhai Sahab Indian Restaurant","19405 Promenade Dr","Lansdowne",722511,39.080842,-77.494585,20176
+"163","zzw-222@63f-yb4-rx5","sg:f02070f3d0c045959e6461f4157f0886","Applebee's","33 W Main St","Radford",722511,37.137502,-80.570286,24141
+"166","225-222@63r-sry-2hq","sg:a311d55cbe124ab3bc02ba7471d41126","Giovanni's NY Pizza","520 E Market St","Leesburg",722511,39.110212,-77.55079,20176
+"168","zzw-222@63r-syb-zxq","sg:8144cd3a2ac44a03a4e764b739d27355","Rochelle Maquire FNP BC","19500 Sandridge Way","Lansdowne",621111,39.076093,-77.48037,20176
+"169","zzz-222@63r-sy9-j7q","sg:746ff51c052c45ef9b00f3855a95abc2","Kephart Bridge Landing","Kephart Bridge Landing","Lansdowne",712190,39.094282,-77.498607,20176
+"170","zzw-225@63f-ybf-2c5","sg:724e75fddf494a9d9f1202ef2eb8530d","Carilion Clinic General Surgery Blacksburg","901 Plantation Rd","Blacksburg",621111,37.224789,-80.444225,24060
+"172","222-222@63r-ss3-skf","sg:ccbcf1b35f004073872520155d6368c8","Inova","235 Old Waterford Rd NW","Leesburg",621111,39.120525,-77.568306,20176
+"174","223-222@63f-yry-8sq","sg:c22c52a86dfc44b3ad981fb216704095","Justin Tebbenkamp DDS","1305 N Main St","Blacksburg",621210,37.244353,-80.416852,24060
+"175","224-222@63f-rw3-qxq","sg:56409c245f0242e696b2045dba190d00","Amelia's Pizzeria & Restaurant","1130 Cambria St NE","Christiansburg",722511,37.14432,-80.404846,24073
+"183","zzy-224@63r-srr-nt9","sg:9c45e9bf242245e298cad40ce7e89115","El Pollo Rico","506 E Market St Ste B","Leesburg",722511,39.110018,-77.552441,20176
+"185","224-223@63f-yb4-jgk","sg:bddaccdd335d454f86b0a8562b1bc362","Panda Chinese Restaurant","7440 Lee Hwy","Fairlawn",722511,37.142717,-80.581667,24141
+"192","224-222@63f-yc3-59f","sg:453858c5c46f4f29b59de583cda5fe3c","El Mariachi","3703 S Main St","Blacksburg",722511,37.185368,-80.407787,24060
+"193","zzw-222@63f-ybx-49z","sg:bca668d773384b9096f2c71525252472","Total Motion Physical Therapy","227 Central Ave","Christiansburg",621340,37.14952,-80.414047,24073
+"198","222-223@63r-stm-hnq","sg:ab9c25bbf31f45769d5feba7bd71cf8a","Ball's Bluff Elem","821 Battlefield Pkwy NE","Leesburg",611110,39.123232,-77.534588,20176
+"199","223-222@63f-ybf-w6k","sg:6f9c19032c94457e8bd1b991f1fd1170","Himalayan Curry Cafe","781 University City Blvd","Blacksburg",722511,37.23374,-80.434013,24060
+"201","zzy-222@63r-srr-nqz","sg:bc88190b47ed4042b0564ff36a2e2c2a","Giant Food","61 Catoctin Circle N.E. Leesburg Plaza","Leesburg",445110,39.111453,-77.553127,20176
+"202","223-222@63f-ybv-b6k","sg:1c21af30156a4416833658cc6434fa88","Kabuki Japanese Steak House","120 Arbor Dr","Christiansburg",722511,37.169174,-80.418875,24073
+"204","22d-223@63r-syc-2hq","sg:dbb0e6733a8a45faa5ba798442874bd3","Inova","44045 Riverside Pkwy Fl 1","Lansdowne",621111,39.074022,-77.47755,20176
+"205","22b-222@63f-yc2-f9f","sg:0a92cfaa75e34148841c01fce6d7ef98","China Garden","1572 N Franklin St","Christiansburg",722511,37.150745,-80.416755,24073
+"211","222-222@63r-stk-73q","sg:f066346eb92b4b6abbe302521d898afa","Smart's Mill Middle","850 N King St","Leesburg",611110,39.132859,-77.547868,20176
+"212","222-223@63f-y8w-7qz","sg:4489d7d2b1ed456da4505d5aff067ea3","Belview Elem","3187 Peppers Ferry Rd","Belview",611110,37.170372,-80.511063,24141
+"214","zzw-222@63r-syc-qfz","sg:87f58dcadbcb44beae3241da5e174dcb","Kelly Boardman PA C","19415 Deerfield Ave","Lansdowne",621111,39.079402,-77.477888,20176
+"215","229-223@63f-ybq-nqz","sg:e136414cc862464190d07e0f042a7a6a","Ceritano's Ristorante","428 N Main St","Blacksburg",722511,37.231978,-80.416112,24060
+"217","22p-222@63f-ybp-m49","sg:80692668c9214dfaaa6328f560d3395c","Happy Wok","133 College Ave","Blacksburg",722511,37.230223,-80.415745,24060
+"219","zzy-222@63r-srz-sbk","sg:b3db7f9cc42140a9a1ce938f9954c2ee","Xuan Saigon","15 Fort Evans Rd NE","Leesburg",722511,39.107189,-77.547574,20176
+"220","222-222@63f-wgh-94v","sg:8919d94e63f04d1a9d4c37090aa40d8c","McClain's","1614 S Main St","Blacksburg",722511,37.211937,-80.401588,24060
+"221","222-222@63f-rw3-4y9","sg:ad6a10c15ed646ef9305c9a9511e84c3","Independence Secondary","208 College St","Christiansburg",611110,37.128689,-80.41385,24073
+"223","zzz-222@63r-sry-7bk","sg:36188b25ae5648808609b99a2b646b2d","Ida Lee Park","60 Ida Lee Dr NW Leesburg Va 20176","Leesburg",712190,39.124088,-77.565963,20176
+"226","222-222@63f-yc2-c89","sg:3e444461de504bbbae4aa520ce627e90","Red Lobster","75 Peppers Fry Rd NW","Christiansburg",722511,37.163885,-80.42534,24073
+"227","224-222@63f-ybf-w8v","sg:d9e69821374b4c2fbc3e598e4193ed49","Marco & Luca","725 University City Blvd","Blacksburg",722511,37.232916,-80.433854,24060
+"231","zzw-222@63f-ybx-2c5","sg:26b2653ac39b46c5a5257e9a09fa7167","Alejandro's Mexican Grill","1635 N Franklin St","Christiansburg",722511,37.151338,-80.412485,24073
+"235","zzw-224@63f-wgh-92k","sg:733d0b1f034f45aa979503db5dcd4903","El Rodeo","1540 S Main St Ste 100","Blacksburg",722511,37.212992,-80.401343,24060
+"238","223-222@63f-s4s-fvf","sg:acffbffb7dbd41deadb85fd504e59238","Latino's Taste","1126 W Main St","Radford",722511,37.125956,-80.586608,24141
+"240","22h-222@63f-ybq-mp9","sg:b7486b48a4324189bae5fdbf4c2343b6","El Rodeo","623 N Main St","Blacksburg",722511,37.234034,-80.419671,24060
+"243","zzz-222@63r-syj-wzf","sg:e15aaef9d59546e2b449b863c2582194","Elizabeth Mills Riverfront Park","Elizabeth Mills Riverfront Park","Lansdowne",712190,39.088895,-77.469516,20176
+"249","zzy-222@63f-yc2-b8v","sg:4bea869a6c9f4a14a2479972a27471db","ALDI","2265 N Franklin Street","Christiansburg",445110,37.160525,-80.420517,24073
+"250","zzz-222@63f-ybn-vxq","sg:45d23d28081e4b3e80e819c466df44d9","Seneca Drive Park","1500 Seneca Dr","Blacksburg",712190,37.248741,-80.423352,24060
+"253","227-222@63f-ybq-9cq","sg:847d733dc44f49b98010d7f25e7d9988","Dayspring Christian Academy","505 Clay St SE","Blacksburg",611110,37.231391,-80.406797,24060
+"254","225-222@63r-syc-2hq","sg:5eb22b498c0d49469cf2f6f510135e3e","Inova","44035 Riverside Pkwy Ste 100","Lansdowne",621111,39.074289,-77.478026,20176
+"257","zzw-223@63r-syb-pd9","sg:4db08b3065774084aa253afa8bc50305","Inova","44055 Riverside Pkwy Ste 234","Lansdowne",621111,39.073743,-77.474726,20176
+"259","223-222@63f-ybn-yjv","sg:fd608f29bbe44baa99f21e330c2c219e","Abby's","1001 N Main St","Blacksburg",722511,37.238797,-80.42053,24060
+"261","zzw-224@63f-wgz-6c5","sg:91cadd61eab047c3b664d2523151c60c","Hunan House","2100 Roanoke St","Christiansburg",722511,37.135839,-80.369491,24073
+"263","223-222@63r-ss2-dn5","sg:86bdd24a59ce4feca1662b1d92eaac47","Ross Stores","1023 Edwards Ferry Rd NE","Leesburg",452210,39.111542,-77.535318,20176
+"264","223-222@63f-tx6-2rk","sg:f64d671dd51a4209aa9908b66cdae3ec","Waffle House","4614 Cleburne Blvd","Dublin",722511,37.08237,-80.689931,24084
+"268","zzw-223@63r-srr-nnq","sg:17eff5dfd63641d99fc02b38bf922482","Douglass School","407 E Market St","Leesburg",611110,39.109536,-77.554863,20176
+"275","zzw-222@63f-s4t-3bk","sg:41c38d4a0b88471a8071958b95a36ecf","El Charro Mexican Grill","713 W Main St","Radford",722511,37.130663,-80.582124,24141
+"276","222-223@63f-wgh-nbk","sg:f2a0630998f2478aa8921f4743f6328c","Margaret Beeks Elem","709 Airport Rd","Blacksburg",611110,37.214046,-80.405965,24060
+"279","222-222@63f-ybv-7yv","sg:29420e28d9b64698abc10a1691ede0ed","El Gran Rodeo","200 Laurel St","Christiansburg",722511,37.162743,-80.419148,24073
+"282","zzw-222@63f-y8y-cnq","sg:53aa3e8041da49efb9dbbd7392419915","Prices Fork Elem","4021 Prices Fork Rd","Prices Fork",611110,37.210197,-80.486436,24060
+"283","zzz-222@63f-ybr-28v","sg:676a3cd7c6b045af8715ab62cf1b198e","Heritage Community Park and Natural Area","2300 Glade Rd","Blacksburg",712190,37.239857,-80.458506,24060
+"284","zzw-225@63f-tx6-389","sg:3961af27453844569eb95eb056105ae9","7-Eleven","4625 Cleburne Blvd","Dublin",445120,37.082973,-80.691073,24084
+"288","22g-222@63r-srr-p7q","sg:a1efab903cc24af48e491cdff185b465","Melt Gourmet Cheeseburgers","525 E Market St Ste J","Leesburg",722511,39.10812,-77.552695,20176
+"289","223-222@63f-ybq-mx5","sg:fe39b90b91c44b25bce304b00ae3c6b3","VelocityCare Blacksburg","215 Gilbert St","Blacksburg",621493,37.23362,-80.42043,24060
+"290","224-222@63f-rvv-vzz","sg:fa9b4253be394d7aa5b1763428fbfb15","Deli Mart","1270 W Main St","Christiansburg",445110,37.118375,-80.42085,24073
+"293","225-222@63r-srr-p35","sg:344b716437b24bb58b97eed9d5f9ee25","Red Hot and Blue Restaurants","541 E Market St","Leesburg",722511,39.107998,-77.551404,20176
+"294","223-222@63r-syc-2hq","sg:8754b23c61b84add83913e2957ebf833","Inova","44035 Riverside Pkwy Ste 200","Lansdowne",621111,39.073984,-77.477832,20176
+"299","zzw-222@63f-yb4-j35","sg:5a1753c1b1a645cc87f598bbf02b58c1","Kroger","7480 Lee Hwy","Fairlawn",445110,37.141659,-80.580339,24141
+"300","223-222@63r-sry-2p9","sg:03f307a6c9444a6abbd391f97a1061bf","USA Market","64 Plaza St NE","Leesburg",722511,39.110333,-77.547702,20176
+"301","22d-222@63f-ybp-mff","sg:3bbc91b9d7924bf8baa3639b7e58b269","Moe's Southwest Grill","239 N Main St","Blacksburg",722511,37.230495,-80.415332,24060
+"302","22h-223@63r-syc-2hq","sg:6741f3bfb185446f80d38b54863c4961","Inova","44055 Riverside Pkwy Ste 104","Lansdowne",621111,39.073948,-77.477767,20176
+"307","229-222@63f-yb5-52k","sg:2a34a08760e14881a1b724b86c11a61e","Screamers Sports Grill","1003 E Main St","Radford",722511,37.140939,-80.554704,24141
+"308","zzz-222@63f-rw3-2tv","sg:16aea67d52f44184be62f8f9662cde94","Downtown Park","55 College St","Christiansburg",712190,37.130882,-80.411943,24073
+"313","zzw-222@63f-rvs-3t9","sg:2b369c05151a4d3dabfe55077afeff65","Montgomery County Health Department","210 Pepper St S Ste A","Christiansburg",452210,37.129437,-80.404119,24073
+"319","zzw-223@63f-wgj-brk","sg:2007c77aa5fc4e92af7859014d6374a2","Kroger","1322 S Main St","Blacksburg",445110,37.216632,-80.40271,24060
+"324","222-223@63f-yrv-sqz","sg:cba05b174bbf48dd9a4d40152864a48a","Gateway Christian School","2196 Harding Rd","Blacksburg",611110,37.244311,-80.366457,24060
+"325","zzw-222@63r-syb-pd9","sg:5fd957a30103409284ba976a4740a763","Inova","44055 Riverside Pkwy Ste 114","Lansdowne",621111,39.073729,-77.474717,20176
+"327","zzz-222@63r-src-hqz","sg:1576860996fa41e98c2c5f00f6e13bdb","Morven Park","17269 Southern Planter La Leesburg Va 20176","Leesburg",712190,39.142036,-77.570088,20176
+"329","223-222@63r-srz-py9","sg:0eb6743e3b5443be9f7cec0f442a4a49","Anita's New Mexico Style Mexican Food","5 Fort Evans Rd NE","Leesburg",722511,39.106999,-77.547937,20176
+"338","zzz-222@63f-yry-grk","sg:63b9f8d191c24125a903504ac0fa8e06","Municipal Park Complex","920 Turner St NE","Blacksburg",712190,37.241727,-80.410267,24060
+"342","222-222@63f-yb4-b49","sg:2838e389604e413a840c119be3dee036","Radford High","50 Dalton Dr","Radford",611110,37.135452,-80.570073,24141
+"343","222-222@63f-yry-zfz","sg:611ee406fd8d4561a2802bdc6f236b8b","Family Medicine of Blacksburg LLC","1645 N Main St","Blacksburg",621111,37.252573,-80.411287,24060
+"344","226-222@63f-rw3-3yv","sg:d6348dafd12e4221989cb4bb11c39c53","Macado's","19 W Main St","Christiansburg",722511,37.129492,-80.409714,24073
+"345","zzz-222@63f-s4k-4y9","sg:78e22f7295b54babb621380f3346946d","River View Park","River St","Radford",712190,37.108988,-80.591839,24141
+"346","222-222@63f-s36-z75","sg:5049043c2c4a46f0b306449721b4cd0e","Omelet Shoppe","5150 State Park Rd","Dublin",722511,37.086321,-80.649826,24084
+"348","225-222@63r-sry-d7q","sg:57a8d8f4303f4c638b46967b506a69f9","Lightfoot Restaurant","11 N King St","Leesburg",722511,39.115911,-77.564574,20176
+"350","223-222@63f-tx5-xh5","sg:bfa603e8990f4b94a7e8360b17fb1a1e","University Physical Therapy","5255 Alexander Rd","Dublin",621340,37.082015,-80.693897,24084
+"351","225-222@63f-y9z-q75","sg:67f92dbfcd624a008996832b4b5f975c","Bt's","218 Tyler Ave","Radford",722511,37.139091,-80.553482,24141
+"357","zzz-222@63f-ybv-y9z","sg:9ed5890883594aa484d5a247470475e6","Mid County Park","380 Cinnabar Rd","Christiansburg",712190,37.171617,-80.415875,24073
+"359","22b-222@63f-wgh-92k","sg:b20ad86676d2484e94c73406f6b89355","Sake House","1560 S Main St Ste 116","Blacksburg",722511,37.212726,-80.401869,24060
+"360","zzz-222@63f-ybg-t9z","sg:2ac760eb88cb4eff8ecdc629d640048a","Huckleberry Trail","201 Clay St SW","Merrimac",712190,37.204799,-80.420823,24060
+"361","zzw-225@63f-ybp-m49","sg:4fb1fd5846724572b55876eecbb3d633","The Milk Parlor","211B Draper Rd NW","Blacksburg",722511,37.229693,-80.416297,24060
+"362","222-222@63r-ss2-jgk","sg:828d862ab6184fb98861e56f62094534","IHOP","980 Edwards Ferry Rd NE","Leesburg",722511,39.114994,-77.538789,20176
+"363","zzw-222@63f-ybp-zxq","sg:649d2554c59046e9808d52cafbc71615","Preston's Restaurant","901 Prices Fork Rd","Blacksburg",722511,37.229895,-80.42965,24061
+"364","225-222@63f-yb4-hbk","sg:5ee61133f8a8443d9617e9edb93ae70e","Cook Out","7400 Lee Hwy","Fairlawn",722511,37.144368,-80.583113,24141
+"365","225-222@63f-ybp-n3q","sg:0417d00ca24c4ef2a66792833e303a0a","Cabo Fish Taco","117 S Main St","Blacksburg",722511,37.228824,-80.413142,24060
+"367","zzw-222@63f-ybp-m6k","sg:a6aa0310de044e18ba71a089c0464e9b","Benny Marzano's","110 Draper Rd NW","Blacksburg",722511,37.229426,-80.415293,24060
+"368","222-223@63f-ybq-p9z","sg:6d9c91b5d590464290e3b0401b0d4c74","Benny Marzano's","210 Prices Fork Rd","Blacksburg",722511,37.234964,-80.421596,24060
+"369","zzw-222@63f-ybn-bc5","sg:356649ee88c64737b83ba4d86d87bedc","Gilbert Linkous Elem","813 Toms Creek Rd","Blacksburg",611110,37.236928,-80.425025,24060
+"370","zzw-222@63r-ss2-h5z","sg:33c2213eb839447bb3927941b6bd57f8","Target","1200 Edwards Ferry Rd NE","Leesburg",452210,39.115717,-77.53441,20176
+"372","224-222@63f-yc3-9j9","sg:41f267ecafc441cb8c5203c6973d0525","Medical Associates of Southwest Virginia","810 Hospital Dr","Blacksburg",621111,37.188036,-80.409141,24060
+"375","zzw-222@63f-ybt-zmk","sg:f7699f537a574c5ab5c5f7a17054097f","Carilion Clinic Outpatient Therapy Christiansburg","120 Ponderosa Dr","Christiansburg",621340,37.169917,-80.418969,24073
+"376","22n-222@63f-ybp-mrk","sg:d656281aa20f41ae93a623597940bf61","Alexander Black House","204 Draper Rd NW","Blacksburg",712120,37.227677,-80.414033,24060
+"381","zzw-229@63r-srz-rzf","sg:873dfd07962c48a2979ee9c85b46d493","Villa Italian Kitchen","241 Fort Evans Rd NE","Leesburg",722511,39.106017,-77.539192,20176
+"382","226-222@63f-yb6-g6k","sg:dbacc7e6f73640c6b457b38307290d7f","Deli Mart","407 Jefferson St","Radford",445120,37.134979,-80.548066,24141
+"388","225-222@63f-yc3-m8v","sg:007b0b2c7f994ccbb047b038c2168694","University Physical Therapy","825 Davis St Ste B","Merrimac",621340,37.187535,-80.414814,24060
+"389","222-222@63r-syf-5s5","sg:83d21e88f252408f8abb39e3bde94994","Harper Park Middle","701 Potomac Station Dr NE","Leesburg",611110,39.094583,-77.522707,20176
+"390","zzy-224@63r-syd-jgk","sg:0a9a3e72b00145d0ac1b327d2638117f","Travinia Italian Kitchen","Village At Leesburg 1605 Village Market Blvd S.E.","Leesburg",722511,39.090185,-77.524603,20176
+"395","227-222@63r-ss2-975","sg:7ab8df3937ad4ecd9231688a50390920","Manhattan Pizza","647 Potomac Station Dr NE","Leesburg",722511,39.09868,-77.525978,20176
+"396","222-222@63f-ybv-66k","sg:4261c3dff193435393c2ad5ee76bc415","Outback Steakhouse","295 Peppers Fry Rd NE","Christiansburg",722511,37.164826,-80.418603,24073
+"398","224-222@63f-wgh-9j9","sg:3d50d696718f4f9a9216801872fcc147","Avellinos","1440 S Main St Ste 110","Blacksburg",722511,37.21425,-80.40188,24060
+"399","zzz-222@63f-yc3-3h5","sg:6ef2c4af89bd41cfbbf61569f8e14907","Interchange Park","Interchange Park","Blacksburg",712190,37.193345,-80.405487,24060
+"400","222-222@63r-syb-zxq","sg:8c81621aabc9444d8871c99f1de3824d","Inova","19500 Sandridge Way Ste 200","Lansdowne",621111,39.076122,-77.480347,20176
+"401","zzw-222@63f-yj3-9mk","sg:d5015ec6727c4bb7858487cba8cbdd32","Dublin Middle","650 Giles Ave","Dublin",611110,37.111528,-80.688553,24084
+"402","225-222@63f-yc3-qfz","sg:628a9eea5f0b4c9baeba66a94d435c61","Richard L Anthony DDS Family & Cosmetic Dentistry","200 Professional Park Dr SE Ste 7","Blacksburg",621210,37.195878,-80.400804,24060
+"404","223-222@63f-ybp-mc5","sg:dd8aa1be3bf64fc6bb7a272168ef5001","The Blacksburg Tavern","103 S Main St","Blacksburg",722511,37.229214,-80.413514,24060
+"407","222-223@63r-syc-qzz","sg:a283b2b3f5fd4596b04dde67080e6c28","Inova","44035 Riverside Pkwy # 500C","Lansdowne",621111,39.075237,-77.478405,20176
+"410","228-222@63r-sry-dsq","sg:05c21280288e4db29a96430cec17910b","La Villa Roma Restaurant & Pizzeria","305 E Market St Ste G","Leesburg",722511,39.112203,-77.560027,20176
+"414","222-222@63r-sy9-zxq","sg:077c8d7e357d421eadc5735bf71af057","Piedmont's Table","44050 Woodridge Pkwy","Lansdowne",722511,39.084818,-77.476491,20176
+"419","222-222@63f-wgj-9cq","sg:a1c2a4a4252544289271c116f7e9f4b2","Lefty's Main Street Grille","1410 S Main St","Blacksburg",722511,37.215215,-80.401033,24060
+"421","22b-222@63f-ybn-835","sg:196ad1aa8090465785b2a2987030a3fe","Gaucho Brazilian Grille","880 University City Blvd Ste 201","Blacksburg",722511,37.23557,-80.433275,24060
+"423","222-222@63f-yj4-7h5","sg:fec72c67bf70463f98b0dc83924ef3d6","Patty's Kitchen","793 Broad St","Dublin",722511,37.111049,-80.67767,24084
+"425","222-222@63r-sry-2hq","sg:6515f58e2f04442aa03bbad6eaf2ac2c","Kobe Japanese Steak & Seafood House","514 E Market St","Leesburg",722511,39.110355,-77.551142,20176
+"427","222-222@63f-ybq-d7q","sg:d94ddcca265e44e8b48338b20a16438e","Harding Avenue Elem","429 Harding Ave","Blacksburg",611110,37.234364,-80.411148,24060
+"432","225-222@63r-ss2-cdv","sg:c53c547ae2c548a08b7172a0dae44fb0","Pho Royal II","542 Fort Evans Rd","Leesburg",722511,39.105916,-77.527013,20176
+"433","222-224@63f-ybt-z2k","sg:d1fa7b3ac59f4f5dbbb4c3aed2099991","7-Eleven","3250 N Franklin St","Christiansburg",445120,37.17435,-80.420202,24073
+"435","zzw-222@63r-sy9-6p9","sg:771fa64efe07408cb164dc4c3b4a7db1","Belmont Ridge Middle","19045 Upper Belmont Pl","Lansdowne",611110,39.08996,-77.49048,20176
+"436","222-222@63r-ss3-snq","sg:0edccfb919c74e8faebd5d16d2dbf145","Inova","224A Cornwall St NW","Leesburg",621111,39.119827,-77.568826,20176
+"442","222-223@63f-yb5-py9","sg:839f3fc35b6047cd90f38845511d57fc","Wfl of Va","1200 Tyler Ave","Radford",722511,37.128189,-80.546946,24141
+"453","zzz-222@63r-sry-gx5","sg:b8735849e99d4243a275e60933bff5f0","Rotary Park","22 North St NE Leesburg Va 20175","Leesburg",712190,39.117276,-77.562171,20176
+"454","zzw-222@63f-rt3-bzf","sg:b175474fea324e86bb299a5f9ce97db9","Aly's Family Italian Restaurant","3204 Riner Rd","Christiansburg",722511,37.088453,-80.450866,24073
+"456","zzy-223@63f-yj3-gkz","sg:d6476ea4440d458fadeb6275ca8c9567","New River Valley Pediatrics","419 E Main St","Dublin",621111,37.105729,-80.683986,24084
+"457","zzw-22k@63f-s3r-2tv","sg:427a8540011e4ad7846df1f03f069f1b","Carilion New River Valley Medical Center","2900 Lamb Cir","Christiansburg",622110,37.089172,-80.505653,24073
+"462","zzw-222@63f-yj5-8jv","sg:d665953a2c5e4e2d90aacc35665fcdd3","Dublin Elem","600 Dunlap Rd","Dublin",611110,37.101786,-80.678579,24084
+"466","zzz-222@63f-wgj-4vz","sg:04460c2123704ba797aa78d69efccad9","NellieS Cave Park And Arboretum","1900 Grissom Ln","Blacksburg",712190,37.209746,-80.392069,24060
+"467","222-222@63f-ybm-s89","sg:0d7c9dce422e4806a1a3ef3002b0ac85","Blacksburg Middle","3109 Prices Fork Rd","Blacksburg",611110,37.214813,-80.461394,24060
+"473","zzw-222@63f-ybx-4d9","sg:42146e017df54c73ae2b4e912f0537c9","University Physical Therapy","115 Akers Farm Rd Ste 1","Christiansburg",621340,37.148001,-80.41372,24073
+"475","223-222@63r-ss2-jn5","sg:52e2b9f2dc9b43deb15bc92dabe6a91b","Leesburg Public House","962 Edwards Ferry Rd NE","Leesburg",722511,39.115258,-77.539478,20176
+"481","zzw-222@63f-yb4-grk","sg:71a53496d1d8410da6c48790845006f7","Rocas Mexican Grill","7523 Lee Hwy","Fairlawn",722511,37.141353,-80.577355,24141
+"482","22b-222@63f-y9z-pqf","sg:be00c3a168924361a6665a54a0834b68","University Physical Therapy","600 E Main St Ste A","Radford",621340,37.137687,-80.544623,24141
+"483","zzw-222@63f-wgy-wff","sg:55bb56e1f85841dca435ec57c209b4e9","Fatback Soul Shack","2440 Roanoke St","Christiansburg",722511,37.137493,-80.358967,24073
+"484","225-222@63f-s4s-ygk","sg:ee976bc840224aa2b4f19e58fc3ba1b6","Mcharg Elem","700 12th St","Radford",611110,37.121089,-80.571545,24141
+"487","223-222@63f-tx6-52k","sg:53fefdff9ad84045849b0c56aef0a0ab","Happy Cinco De Mayo","4426 Cleburne Blvd","Dublin",722511,37.075705,-80.690119,24084
+"489","zzw-223@63f-yc2-f9f","sg:b428b24a942343ae84f9b7282119dc62","Food Lion","1530 N Franklin St","Christiansburg",445110,37.150128,-80.41707,24073
+"492","223-222@63f-y7q-xkf","sg:4d771f10fe814046a5c1b87566f8c4d7","Super Val U Grocery","109 Blue Grass Trl","Newport",445110,37.290232,-80.498463,24128
+"494","222-223@63f-ybt-zmk","sg:07f1a6772de94c658447071316f5615d","Zelen Charles DPM Podiatrist","2955 Market St","Christiansburg",621111,37.169883,-80.419626,24073
+"498","zzy-222@63f-wyw-ffz","sg:11b7d72eb5f148f58b562bbe98cc81f8","Dragon's Tooth","Catawba Valley Dr","Catawba",712190,37.360787,-80.17347,24070
+"500","zzw-222@63f-yc2-kfz","sg:7e5676980b9b49c1b562119c211f0cb2","Taqueria el Paso","510 Peppers Fry Rd NW","Christiansburg",722511,37.162264,-80.434061,24073
+"506","222-222@63f-yb4-yqf","sg:0d46a09e407f4a81a3dd815cdadbdc0f","Riverlawn Elem","8100 Beth Nelson Dr","Fairlawn",611110,37.151989,-80.564158,24141
+"508","zzw-222@63f-tx5-xh5","sg:96f734daaa8e4dbaab78ba4026007705","El Ranchero","5239 Alexander Rd","Dublin",722511,37.082178,-80.694309,24084
+"510","223-223@63r-ss3-snq","sg:51a15e89594747469b52668511dd8fea","Inova","224 Cornwall St NW","Leesburg",621111,39.119768,-77.568894,20176
+"519","225-222@63f-s4t-4d9","sg:38fe84f3d67c4e58b61444ebcf9aa0f7","Pazar Radford","703 W Main St","Radford",722511,37.130989,-80.581379,24141
+"520","222-226@63f-ybf-w6k","sg:94e4e15a6959447a93098e4aa31cd06a","El Mariachi Mexican Restaurant","801 University City Blvd","Blacksburg",722511,37.233655,-80.434267,24060
+"524","zzz-222@63f-yb4-nnq","sg:1b2047fab8854e3aa2668eb36ecfba53","Bisset Park","Berkley Williams Dr","Radford",712190,37.137252,-80.57473,24141
+"529","222-222@63r-syb-pd9","sg:ea98d26d819b4918b2dc93d78d4f36ab","Inova","44055 Riverside Pkwy Ste 150","Lansdowne",621111,39.073719,-77.474711,20176
+"534","zzw-222@63r-srr-nt9","sg:732b4a605e5d4940a20999e3e07e23cb","Taste Of Lebanon Mediterranean Grill","510 E Market St Unit F","Leesburg",722511,39.110566,-77.551455,20176
+"536","zzz-222@63f-ybp-5xq","sg:78780d6902c44f8282382ec1f033087e","Brookfield Village","1225 Brook Cir","Blacksburg",712190,37.248265,-80.432231,24060
+"537","222-222@63f-ybm-q2k","sg:6b42b0adb56d4674bf95374a57e43e74","Blacksburg High","3401 Bruin Ln","Blacksburg",611110,37.211075,-80.459025,24060
+"539","222-222@63f-y8w-94v","sg:e03dcaf08f4542ca848f0b9232f882cf","Christie's","3410 Peppers Ferry Rd","Belview",445120,37.172006,-80.516293,24141
+"540","222-223@63f-wgz-89z","sg:bcd54d0873ac419aae99c6d4542c9417","7-Eleven","2370 Roanoke St","Christiansburg",445120,37.136913,-80.362158,24073
+"543","zzy-222@63r-syc-r8v","sg:197c0510c70f485caff5e11a99a44064","Jennifer Thompson FACOG","19455 Deerfield Ave Ste 204 Loudoun Obgyn P.C.","Lansdowne",621111,39.07757,-77.477092,20176
+"544","zzy-222@63f-wht-kxq","sg:572bad4bf2b8445fac4c8bf8be5a7876","Hale's Restaurant","7643 Roanoke Rd","Shawsville",722511,37.172827,-80.240689,24162
+"548","zzw-222@63f-yry-75z","sg:bd9a6a6beec447628ab416360011363f","Food Lion","1413 N Main St","Blacksburg",445110,37.24811,-80.41504,24060
+"551","225-222@63r-sy9-mrk","sg:3cf66422587e453aa1d31344c8a80481","Mr Sushi & Mrs Roll","19302 Promenade Dr","Lansdowne",722511,39.082494,-77.495445,20176
+"552","zzw-222@63f-yb6-rp9","sg:283ee8ae85df46a1b5d3c31d7caec68b","Belle Heth Elem","151 George St","Radford",611110,37.131953,-80.557358,24141
+"561","22b-222@63f-ybp-m49","sg:fe56afbea29c49bdaf2b2539165e71d8","Green's Grill & Sushi Bar","109 College Ave","Blacksburg",722511,37.230298,-80.4155,24060
+"563","22c-222@63r-syc-2hq","sg:7cc0f8bf550343daace4e4c6475cab8f","Inova","44055 Riverside Pkwy Ste 110","Lansdowne",621111,39.074105,-77.47807,20176
+"565","225-222@63r-ss2-gx5","sg:823cedf10a3e4f4f9047c86beea6a1c1","Kovi Asian Street Food Kitchen","1015 Edwards Ferry Rd NE","Leesburg",722511,39.112705,-77.535203,20176
+"568","225-222@63f-s4t-6kz","sg:dde39608857a4e2f8ea9789d36634990","LewisGale Physicians","106 Wadsworth St","Radford",621111,37.13101,-80.57827,24141
+"569","zzy-223@63f-yc2-73q","sg:a081b7b546d0441d86ab1a8e797794b5","T.J. Maxx","160 Conston Ave. Spradlin Farms","Christiansburg",452210,37.159037,-80.424435,24073
+"576","zzw-223@63f-rvz-ht9","sg:4e700d456565462db532db222cff6f0e","Falling Branch Elem","735 Falling Branch Rd","Christiansburg",611110,37.125919,-80.372221,24073
+"578","zzw-223@63f-yb6-dgk","sg:fb830ff76ed8423c9a9a71a388adc37f","Lin House","1200 Tyler Ave","Radford",722511,37.128948,-80.547246,24141
+"579","222-222@63r-sry-qxq","sg:2c19c73ffd474dcabad64332b416ed65","Kohl's","1040 Edwards Ferry Rd NE","Leesburg",452210,39.116116,-77.537161,20176
+"585","222-222@63r-syb-zvf","sg:eb23e0ec07ba4be780cc657bf45ffcbd","Loudoun Pediatric Associates Leesburg","19500 Sandridge Way","Lansdowne",621111,39.076213,-77.480337,20176
+"587","zzz-222@63r-srx-sdv","sg:31cf6a7751c54e5284765b4e7e54d15f","Robinson Park","345 Plaza St NE Leesburg Va 20176","Leesburg",712190,39.122421,-77.549754,20176
+"590","222-223@63f-yc3-ffz","sg:09640b357b5b454c8cf2ef24949387fc","Huckleberry Cafe","2387 Warm Hearth Dr","Merrimac",722511,37.197261,-80.419616,24060
+"594","222-222@63f-ybp-m49","sg:c3fc3ef7193e4e22b48596944d11ddf4","Bottom of the Stairs","217 College Ave","Blacksburg",722511,37.229694,-80.41638,24060
+"595","222-223@63r-srz-q4v","sg:d628c9e6ad1f491699492a6b19e81fc0","7-Eleven","615 E Market St","Leesburg",445120,39.107151,-77.549855,20176
+"601","zzw-222@63f-yc3-n5z","sg:12fbd88eba564b50ba670adb6f41c865","Lewisgale Hospital Montgomery","3700 S Main St","Blacksburg",622110,37.187565,-80.412078,24060
+"605","222-222@63f-whz-ysq","sg:0137403025554c6c8c16bc007a2b618c","Eastern Montgomery High","4695 Crozier Rd","Elliston",611110,37.204389,-80.230787,24087
+"608","zzz-222@63r-stn-9zz","sg:50329eca5ba14654b93c2d1d001b0720","Balls Bluff Battlefield Regional Park","Balls Bluff Rd Leesburg Va 20176","Leesburg",712190,39.132721,-77.527236,20176
+"609","224-222@63r-srz-rc5","sg:78471ec6c9a8495184f3bbdcfbc18d94","Wei's Garden","161 Fort Evans Rd NE Ste 110","Leesburg",722511,39.10857,-77.541419,20176
+"611","225-222@63f-s4v-p5f","sg:1ba346e5d5e04768b1e8e057166a11ad","R & R Market & Snackbar","1611 Wadsworth St","Radford",722511,37.119119,-80.564844,24141
+"612","zzy-222@63f-whq-7wk","sg:45ec305351bf47a78c94ba4035548d57","Eastern Montgomery Elem","4580 Eastern Montgomery Ln.","Elliston",611110,37.199212,-80.232886,24087
+"613","zzw-222@63f-s4t-4d9","sg:1a110c636ad0450eb7833ec644e4f3d4","Sal's Italian Restaurant & Pizza","709 W Main St","Radford",722511,37.130706,-80.581905,24141
+"614","zzw-222@63f-wht-tvz","sg:c25af554082e4dcb93dc2bdd99ac3ea5","Shawsville Middle","4179 Oldtown Rd","Shawsville",611110,37.172552,-80.247947,24162
+"618","222-222@63r-srd-ch5","sg:a6e98b63834b4336933f6fe81cb6db3c","Tuscarora High","801 N King St","Leesburg",611110,39.13275,-77.558565,20176
+"619","22b-222@63r-sy9-mrk","sg:f3ad3675891a4f00a782d6ec9cc41784","Ford's Fish Shack Lansdowne","19308 Promenade Dr","Lansdowne",722511,39.082281,-77.495307,20176
+"623","zzy-222@63r-syb-9xq","sg:0dafe9bf7c324612b59984248f75321e","Kephart Bridge Landing","43942 Riverpoint Dr","Lansdowne",712190,39.098479,-77.494284,20176
+"628","223-222@63f-rw4-3yv","sg:d9d697f7233b4d2e8fd70776f3c95f09","Waffle House","90 Oaktree Blvd","Christiansburg",722511,37.148531,-80.415427,24073
+"631","225-223@63f-s4s-ygk","sg:aafab87889ac4a6584e6e24341758cb4","McHarg Cafeteria","700 12th St","Radford",722511,37.120919,-80.571286,24141
+"634","235-222@63f-ybn-8y9","sg:5fd78ea362c14cba96a92d67bf680eb7","Your Pie","608 University City Blvd Ste 604","Blacksburg",722511,37.232437,-80.432418,24060
+"643","zzy-225@63f-s4t-3bk","sg:c2750e9bbe7f4ddbb9311e1bf183460a","Kroger Co Ofc","Radford Shopping Plz","Radford",445110,37.130403,-80.582101,24141
+"645","224-222@63r-ss2-45f","sg:25d381c5fd4e40b4a1e5a42253683166","Legacy Orthodontics","540 Fort Evans Rd Ste 102","Leesburg",621210,39.106565,-77.527092,20176
+"646","22b-222@63f-ybp-m8v","sg:52651f90856b4a4a82cd1fc82cbfbe72","Cafe De Bangkok","104 Jackson St NE","Blacksburg",722511,37.230318,-80.414038,24060
+"653","222-222@63f-rw3-6zf","sg:15656048a7094e44935a6c56e3a6731e","Christiansburg Primary","240 Betty Dr","Christiansburg",611110,37.1324,-80.415385,24073
+"654","zzw-223@63f-yjn-5s5","sg:c03d3601c0fc423aacd5baca006e0772","Jim's Grocery","Popular Hl","Dublin",445110,37.195972,-80.732441,24084
+"655","22d-222@63f-y9z-q75","sg:7ed8acf088a84e8f87c9233e216dc404","7-Eleven","302 Tyler Ave","Radford",445120,37.138497,-80.553435,24141
+"656","224-222@63f-ybp-m49","sg:7f15e7badf2b4e81952b18af44ee0c4b","Souvlaki","201 College Ave","Blacksburg",722511,37.229871,-80.416204,24060
+"657","22d-222@63f-yb5-2rk","sg:d40a568b91d14f0f86dfbdb4c839dbbd","Mike's Grocery & Video","207 1st Ave","Radford",445110,37.13937,-80.554892,24141
+"661","22p-222@63f-ybp-kxq","sg:099b6b56b7df49639061b535d8c5d293","Boudreaux's","205 N Main St","Blacksburg",722511,37.229997,-80.415024,24060
+"665","zzw-227@63f-tx6-389","sg:8ab87862598847db8a4645a60c66d8e5","7-Eleven","4622 Cleburne Blvd","Dublin",445120,37.082964,-80.691059,24084
+"666","zzw-223@63f-yc2-7qz","sg:a25e5bbc3a804286a6bea00ba123d756","Target","195 Conston Ave","Christiansburg",452210,37.157086,-80.422249,24073
+"668","zzw-223@63r-syf-9s5","sg:720bf6878f0c4135b1d3d2713b1d2891","John W Tolbert Jr Elem","691 Potomac Station Dr NE","Leesburg",611110,39.096254,-77.524178,20176
+"671","228-222@63f-ybt-ysq","sg:0265b114f6f04085b1f66862252fd31d","Las Delicias Taqueria Y Pupuseria","3135 N Franklin St","Christiansburg",722511,37.172547,-80.419854,24073
+"674","zzw-224@63r-syc-2hq","sg:04b8403aa48f4ecdbc7b8d009bae5dd3","Inova","44055 Riverside Pkwy Ste 226","Lansdowne",621111,39.074012,-77.477836,20176
+"677","227-222@63f-yb6-snq","sg:58539b44fbec4c92a0f93ec06efb2701","Moe's Southwest Grill","314 Tyler Ave","Radford",722511,37.137924,-80.553319,24141
+"678","223-222@63f-tx6-8qf","sg:6cbfae2877384e4bbf7ebd72cb48af9a","Shoney's","4416 Cleburne Blvd","Dublin",722511,37.075925,-80.692111,24084
+"680","222-222@63r-sry-qzz","sg:cad6300c521148c9908bf505a413444d","MetroMed Urgent Care","952 Edwards Ferry Rd NE","Leesburg",621493,39.11675,-77.539758,20176
+"682","223-222@63r-srr-pgk","sg:c01fbbb253ed4c4eaff14ac74504d298","7-Eleven","22 Plaza St NE","Leesburg",445120,39.108303,-77.549779,20176
+"683","226-222@63r-sy9-8y9","sg:b202fd82990c42c5912506817d0129e1","Lansdowne Foot & Ankle Center","19440 Golf Vista Plz Ste 120","Lansdowne",621111,39.078261,-77.482378,20176
+"684","227-222@63f-ybt-z4v","sg:3bea76fc7a324ecca93f78386817dbfd","Sears Home Services","3195 N Franklin St","Christiansburg",452210,37.17318,-80.419207,24073
+"685","zzw-223@63r-srz-pn5","sg:76a106e4157144929f18c9b30f4abba6","Panda Cafe","707 E Market St Ste F","Leesburg",722511,39.105776,-77.54887,20176
+"686","222-222@63r-ss2-94v","sg:9df450dfc3af4ef2a69c8d84af1cf365","Patient First","601 Potomac Station Dr NE","Leesburg",621111,39.099822,-77.527006,20176
+"698","222-222@63f-yc3-mx5","sg:b982b6d98ebd4bd1bfc886dd2c123d2a","NRV Pediatrics","805 Davis St","Blacksburg",621111,37.186209,-80.412893,24060
+"700","zzw-222@63r-ss2-975","sg:1fbc534f401441f6bddc0375704ae900","Giant Food","635 Potomac Station Dr. Potomac Station","Leesburg",445110,39.098241,-77.526238,20176
+"701","222-222@63f-rt7-kzz","sg:70d328ef7cef491aba4a6e0c10ea6f83","Auburn Elem","1760 Auburn School Dr","Riner",611110,37.061205,-80.445952,24149
+"702","224-222@63r-sy9-mrk","sg:42c7898378074e368ddee8abc092d166","Bua Thai","19326 Promenade Dr","Lansdowne",722511,39.082087,-77.495174,20176
+"703","222-225@63f-ybf-w6k","sg:a6cb9122210946af9ab09878af0cb6ad","Hunan King Chinese Restaurant","801 University City Blvd","Blacksburg",722511,37.23395,-80.434221,24060
+"708","zzw-226@63r-syc-qj9","sg:c1379e9b0fb549cf977e9f75b1a024e9","Ssp America","19465 Deerfield Ave","Lansdowne",722511,39.078238,-77.478466,20176
+"710","zzy-222@63f-rw3-4y9","sg:64664116e7af447d96e3e61acdd498bd","Montgomery County","207 College St","Christiansburg",621111,37.128413,-80.41484,24073
+"717","zzz-222@63f-yb4-8vz","sg:a6fa36942c5b4f42872f1d402f33ec40","Wildwood Park","W Main St","Radford",712190,37.134781,-80.565472,24141
+"721","zzw-222@63r-syc-nyv","sg:986e30e1402443ad80d272c364ecd639","Loudoun Medical Care PC","19415 Deerfield Ave Ste 115","Lansdowne",621111,39.079398,-77.477503,20176
+"722","222-222@63f-rw3-yy9","sg:f90be817bbcd4e5c8e0bbd66ddd90f52","Christiansburg High","100 Independence Blvd","Christiansburg",611110,37.145649,-80.418234,24073
+"725","zzw-223@63r-srx-x89","sg:a1ab4d4b39d044439abcb34f53b6de91","Aurora School","601 Catoctin Cir NE","Leesburg",611110,39.122729,-77.554359,20176
+"726","zzz-222@63f-ybq-bp9","sg:17788bd7d75e494baa398d14dbebefff","Price House Nature Center and Garden Park","107 Wharton St SE","Blacksburg",712190,37.230758,-80.410649,24060
+"731","zzw-222@63r-srz-sqz","sg:f44ea4cc7bd24d1faf056449ff2b5ce1","Rocco's NY Pizza & Subs","62 Plaza St NE","Leesburg",722511,39.109823,-77.548266,20176
+"732","222-224@63r-sy9-n5z","sg:24c0e69d35dd4d489a0c97784c125491","Harris Teeter","19350 Winmeade Dr","Lansdowne",445110,39.080591,-77.49559,20176
+"733","22b-222@63f-yb6-st9","sg:c319d72f7c5c4c0a902a049c27cb0d65","Benny Nicola's","1018 Clement St","Radford",722511,37.137889,-80.554086,24141
+"735","zzz-222@63f-y9f-jvz","sg:00ee834fe00948f39dddb23a0147b084","Edgemont Of Diamond Hills Park","Independence Blvd NW","Christiansburg",712190,37.143098,-80.43183,24073
+"737","222-222@63f-wgy-vfz","sg:d89e4864ebf94b428476db34dbd11468","Cracker Barrel","30 Hampton Blvd","Christiansburg",722511,37.138829,-80.353654,24073
+"738","22d-223@63r-ss3-qs5","sg:a9029cf69c084bba8e427b5e129c08d4","La Lou Bistro","19 W Market St","Leesburg",722511,39.115604,-77.565631,20176
+"743","222-224@63f-yb5-py9","sg:208441720a084fcebc81b85bcec30b45","Food Lion","1200 Tyler Ave","Radford",445110,37.1282,-80.546927,24141
+"747","224-222@63f-ybn-4vz","sg:00d4626a63fd4dcd81fedc837c5ae774","7-Eleven","1201 Toms Creek Rd","Blacksburg",445120,37.24235,-80.428166,24060
+"748","zzw-222@63r-ss2-j7q","sg:5183f5bf4b6c4a748e9789479bae6b14","Blue Ridge Grill","955 Edwards Ferry Rd NE","Leesburg",722511,39.112606,-77.538716,20176
+"759","226-222@63f-ybp-n3q","sg:e5b503bbfc444b789ebf476182b5cfcc","Mellow Mushroom","207 S Main St","Blacksburg",722511,37.22822,-80.412411,24060
+"760","223-224@63r-sry-dsq","sg:fdb35411c5964cee8ffbf52ec7f802ef","Inova","305 E Market St","Leesburg",621111,39.111564,-77.559813,20176
+"762","zzw-224@63r-srz-rzf","sg:aafdeca3b067405ca0f1aa60def8023b","Far East Asia Fire","241 Fort Evans Rd NE","Leesburg",722511,39.10601,-77.539168,20176
+"765","zzw-222@63f-tx6-5zz","sg:11718585a9a34ab79fac93086c9686b4","Bojangles'","4396 Cleburne Blvd","Dublin",722511,37.07426,-80.694201,24084
+"767","222-222@63f-rw2-xnq","sg:f0c6eb8aa9694eafaef939fda103b0f8","Christiansburg Elem","160 Wades Ln","Christiansburg",611110,37.134694,-80.416486,24073
+"771","223-223@63f-yb5-389","sg:1e74713c7fa4463c9a450b9ed39ddc27","Golden Bowl","1802 E Main St","Radford",722511,37.139895,-80.564114,24141
+"774","222-222@63r-ss2-ghq","sg:d7a77240949c47bb8ef7b921bc7c6cbf","TGI Fridays","235 Fort Evans Rd NE","Leesburg",722511,39.109564,-77.537862,20176
+"777","zzz-222@63f-s4v-nt9","sg:e37d6f6d63ea4ead99746c4cf5d3f1fc","John Dobbins Park","Seventeenth St","Radford",712190,37.118351,-80.566457,24141
+"779","zzw-222@63f-ybq-mrk","sg:b38cdbb95c104077bdd02fa2b3f162da","Waffle House","610 N Main St","Blacksburg",722511,37.233942,-80.418826,24060
+"783","zzz-222@63r-sry-rkz","sg:f824d6e38363429f88abf337b5c9636c","Carrvale Park","919 Marshall Dr NE Leesburg Va 20176","Leesburg",712190,39.118109,-77.54377,20176
+"787","223-222@63f-wgj-9mk","sg:9d156256533545d59d9cc2d41adcd03d","Cook Out","1311 S Main St","Blacksburg",722511,37.217029,-80.400725,24060
+"788","zzz-222@63f-yb5-975","sg:fdb41be4f99c40a4ada3aa82dd5e978d","Old Riverlawn Park","6671 Riverlawn Ct","Fairlawn",712190,37.148584,-80.573003,24141
+"793","226-222@63r-ss3-snq","sg:3c76d375210044768a62b72bd831f419","Inova","211 Gibson St NW Ste 206","Leesburg",621111,39.119114,-77.567966,20176
+"796","222-222@63f-ybv-k4v","sg:56fd338f02bc4b1aa4de1c63bda17a28","IHOP","65 Peppers Fry Rd NW","Christiansburg",722511,37.164432,-80.424691,24073
+"797","zzz-222@63r-syd-x5z","sg:0214e442f7974aa482452dc7e0ac41c7","Harper","Harper","Leesburg",712190,39.093515,-77.512571,20176
+"798","22t-222@63f-ybp-m49","sg:7bf24c333c7844c88f27f0abaa3b7816","The Rivermill","212 Draper Rd NW","Blacksburg",722511,37.229944,-80.415904,24060
+"801","zzw-222@63r-srr-p9z","sg:6dda08570bcc4f988c5c8a963fe46463","La Estacion Restaurante","525 E Market St","Leesburg",722511,39.10798,-77.552402,20176
+"802","zzy-223@63r-syc-2hq","sg:fcd669d945fa490d8220bd194a54b312","Inova","Inova Loudoun Hospital 44045 Riverside Parkway","Lansdowne",621111,39.074304,-77.477459,20176
+"804","zzw-222@63f-yc3-mtv","sg:d1fa9817aac04ea6a5604633e1bbb932","LewisGale Physicians","809 Davis St","Blacksburg",621111,37.186363,-80.41329,24060
+"812","zzw-224@63f-ybp-m49","sg:f27b6646d2bd4df1b1a7c35a68400334","DP Dough","215 N Main St","Blacksburg",722511,37.23017,-80.415194,24060
+"814","zzz-222@63r-stm-4y9","sg:2baa8d16a5804b5491e8dadea87d6e11","EdwardS Landing Park","901 Powhatan Ct Leesburg Va 20176","Leesburg",712190,39.119415,-77.524266,20176
+"817","zzz-222@63f-ybp-wrk","sg:e04cdb28e5df48339f46b411228cfd95","Drillfield","Drillfield","Blacksburg",712190,37.227562,-80.422929,24061
+"827","225-222@63f-ybp-mff","sg:191aaf5ce126484785f757267a382505","The Cellar Restaurant","302 N Main St","Blacksburg",722511,37.231001,-80.415061,24060
+"828","229-222@63f-rw3-3nq","sg:50be8906a14644b999343a3c7e3de6d7","Charlie's Chinese Restaurant","35 W Main St","Christiansburg",722511,37.129264,-80.409903,24073
+"830","zzw-222@63f-yb4-b8v","sg:35cb7c334cb34124be0b4accc4a42264","John N Dalton Int","60 Dalton Dr","Radford",611110,37.135441,-80.570692,24141
+"835","222-223@63f-ybm-qzz","sg:0d36cd1e022f4eb0a2c3645bbb1c8f5d","Food Lion","801 Hethwood Blvd","Blacksburg",445110,37.216815,-80.455043,24060
+"838","229-223@63r-syc-r8v","sg:7c2a6db26e294e72b0595846addcfefa","Inova","19455 Deerfield Ave Ste 102","Lansdowne",621111,39.077618,-77.47729,20176
+"842","222-222@63f-ybv-kfz","sg:3d8a7ad30b404400a28a4d3e910f4664","Golden Corral","2580 N Franklin St","Christiansburg",722511,37.165183,-80.42404,24073
+"845","225-222@63f-s4s-rkz","sg:6eaf7719550e48f9b0a6b58aaa8dc515","Vaughan Dennis L Dr Orthodntst","600 2nd St","Radford",621210,37.130759,-80.577859,24141
+"846","222-222@63f-ybv-kcq","sg:b43e76a57d714250b91b4ec818f46c84","Olive Garden","2590 N Franklin St","Christiansburg",722511,37.165937,-80.423894,24073
+"847","22c-223@63r-syc-r8v","sg:021d74af91bb48beae23d717dded2787","Clinical Neurology","19455 Deerfield Ave Ste 211","Lansdowne",621111,39.07751,-77.476951,20176
+"849","227-222@63r-sy9-nh5","sg:b5314927e4f047ceafc453a66f18dfad","Viet Chopsticks","19385 Promenade Dr","Lansdowne",722511,39.081039,-77.494776,20176
+"863","225-222@63r-syc-qzz","sg:bb3409fe37274b9ba50c4d7e359790d8","Inova","44035 Riverside Pkwy Ste 120","Lansdowne",621111,39.075237,-77.478487,20176
+"864","223-222@63f-ybm-qpv","sg:c5fe60a0b204407ea94ee9e06ace120f","Kipps Elem","2801 Prices Fork Rd","Blacksburg",611110,37.215888,-80.456278,24060
+"865","zzy-223@63r-syc-qzz","sg:8e8a2d1512594dbfb316989199e030f6","Inova","Inova Loudoun Medical Campus 44035 Riverside Parkw","Lansdowne",621111,39.075173,-77.478406,20176
+"867","zzw-222@63r-srz-sbk","sg:a3165a9aa5964d7caff97b458b5a7d91","Inova","19 Fort Evans Rd NE Ste C","Leesburg",621111,39.107207,-77.546812,20176
+"871","zzz-222@63f-ybq-rc5","sg:f77c421fbeb64701bdfcd4dd1eb7a5c3","Wong Park","303 Wilson Ave","Blacksburg",712190,37.234506,-80.413893,24060
+"872","zzz-222@63f-ybz-k2k","sg:4470ff1d2eed49beaeb5d45494f9e1ec","North Christiansburg Regional Park","300 Peppers Fry Rd NW","Christiansburg",712190,37.158254,-80.428993,24073
+"874","zzy-222@63f-wqj-x5z","sg:9a7833e08bb94798abc6ff395ade2e41","The Homeplace","4968 Catawba Valley Dr","Catawba",722511,37.381054,-80.111436,24070
+"875","22q-222@63f-ybq-mp9","sg:41ebfdf0509e43e8a1f0f865e60596b0","Black Salt Kitchen","610 N Main St Ste A","Blacksburg",722511,37.234079,-80.418759,24060
+"877","zzw-222@63r-sy9-5fz","sg:81de9d5c26004979b8ec2e1008f0cb07","Riverside High","19019 Upper Belmont Pl","Lansdowne",611110,39.091814,-77.489429,20176
+"878","222-222@63f-yb4-j9z","sg:c15293359adc4b02b75e2751356b8e30","Bojangles'","7455 Lee Hwy","Fairlawn",722511,37.143101,-80.579266,24141
+"879","223-223@63f-ybn-8jv","sg:ee8aec4878ff43088c047fb29f044fcd","Macado's","922 University City Blvd","Blacksburg",722511,37.236396,-80.433959,24060
+"882","226-222@63f-ykx-psq","sg:2ad3c832ff9e4737a0bc112aea2d4e34","Sal's Jr Pizzeria & Italian Restaurant","7401 Peppers Ferry Blvd","Fairlawn",722511,37.152008,-80.582616,24141
+"889","22d-222@63r-syc-2hq","sg:3ac43ac7989b40c386fc8ba2448a22ef","Inova","44045 Riverside Pkwy","Lansdowne",621111,39.074311,-77.477952,20176
+"890","zzy-222@63f-yb4-g8v","sg:01a3587ded1f4462b06ee1a5e75d71ce","Hank's Drive In","7431 Lee Hwy","Fairlawn",722511,37.143611,-80.58082,24141
+"891","zzw-222@63f-rvt-z75","sg:46259454d1834e69945ed33bdf5ff3cc","Christiansburg Middle","1205 Buffalo Dr","Christiansburg",611110,37.122438,-80.425306,24073
+"893","22m-222@63f-ybp-mff","sg:cb60c56b415540ce9e3882df9fb30c68","The Coop","235 N Main St","Blacksburg",722511,37.230406,-80.415274,24060
+"896","zzz-222@63f-rw2-wp9","sg:00cd1ce4814c461e9d2b2400a4396b6d","Depot Park","250 Depot St NE","Christiansburg",712190,37.135907,-80.410415,24073
+"899","zzz-222@63f-ybp-7qz","sg:3cb7e7533e9f45ad8ad32ca97f0ac7ed","Toms Creek Park","2100 Toms Creek Rd","Blacksburg",712190,37.252663,-80.435579,24060
+"901","222-224@63f-wgh-94v","sg:9ba2a6e78b57462b87483738927c6da3","Frank Theatres CineBowl & Grille","1614 S Main St","Blacksburg",722511,37.211945,-80.401227,24060
+"904","zzw-222@63r-syc-p35","sg:8a483bdf17ea4451bbe7029bc41267d3","Allergy Asthma &amp Immunology Institute","19455 Deerfield Ave Ste 207","Lansdowne",621111,39.077539,-77.476761,20176
+"907","zzw-222@63f-ybp-n89","sg:90aaf6ba76f14de6a5823a3d40ddac92","Soup Garden","Turner Pl","Blacksburg",722511,37.229524,-80.417944,24061
+"913","222-222@63f-rw2-w8v","sg:7950aa21e40a4316b9adaf8a3bf22ea9","Kroger","555 N Franklin St","Christiansburg",445110,37.136064,-80.411811,24073
+"915","227-222@63f-yc3-mzf","sg:549d0fc7b6cb4a398df75bac88ee5343","Blacksburg Pediatrics PLC","817 Davis St Ste A","Blacksburg",621111,37.186745,-80.41404,24060
+"917","223-222@63f-wgh-dgk","sg:49aea5ac5f104beeba2375fb307ab8cf","Bojangles'","2111 S Main St","Blacksburg",722511,37.201295,-80.398857,24060
+"922","223-222@63f-rvr-syv","sg:f3430e60885642e6b53b82e807eabc55","Montgomery County Governor's Stem Academy","750 Imperial St","Christiansburg",611110,37.130979,-80.392577,24073
+"924","zzw-222@63f-yb5-z9f","sg:2315743e9e3d4cf8ade0fea17e396301","New River Valley Pediatrics","202 8th St","Radford",621111,37.12838,-80.568454,24141
+"925","223-222@63r-st2-w8v","sg:b6393757082741309c3cd7c7bb271e0f","Roots 657","42301 Spinks Ferry Rd","Leesburg",722511,39.205312,-77.536108,20176
+"926","222-222@63f-rw3-3qz","sg:546914554ded41cf8cd1cdc11cea30ac","LewisGale Physicians Christiansburg Family Medicine","6 Hickok St","Christiansburg",622110,37.12811,-80.409594,24073
+"927","222-222@63f-rvy-6x5","sg:b222b434d3364896af0a8eda45997471","Food Lion","1530 Roanoke St","Christiansburg",445110,37.133741,-80.379144,24073
