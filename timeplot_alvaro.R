@@ -87,6 +87,22 @@ ggplot(data = aggregated_data, aes(x = date, y = total_num_normalized, color = a
   theme_minimal()
 
 
+aggregated_data_wide = pivot_wider(aggregated_data,names_from = agg_group,values_from=total_num_normalized)
+aggregated_data_wide$date = as.Date(aggregated_data_wide$date)
+names(aggregated_data_wide) = c("date","grocery","department","schools","healthcare","naturepark","restaurants")
+cor(aggregated_data_wide$healthcare, aggregated_data_wide$naturepark)
+#### March 13 - compare various groups 
+# nature parks vs healthcare
+# nature parks vs grocery stores
+# healthcare vs grocery stores
+
+
+#next, divide into pre-pandemic and pandemic
+aggregated_data_wide_prepandemic = subset(aggregated_data_wide, date < as.Date("2020-01-01"))
+aggregated_data_wide_pandemic = subset(aggregated_data_wide, date > as.Date("2020-01-01"))
+
+ggplot() + geom_point(data = aggregated_data_wide_prepandemic, mapping = aes(x =schools, y = department))+ ggtitle("prepandemic")
+cor(aggregated_data_wide_prepandemic$schools, aggregated_data_wide_prepandemic$department)
 
 # Plot mean data
 mean_data <- NAICS_data %>%
