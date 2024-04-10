@@ -98,6 +98,13 @@ names(aggregated_data_wide) = c("date","grocery","department","schools","healthc
 cor(aggregated_data_wide$naturepark, aggregated_data_wide$healthcare)
 # nature parks vs grocery stores
 cor(aggregated_data_wide$naturepark, aggregated_data_wide$grocery)
+# nature parks vs schools
+cor(aggregated_data_wide$naturepark, aggregated_data_wide$schools)
+# nature parks vs department
+cor(aggregated_data_wide$naturepark, aggregated_data_wide$department)
+# nature parks vs restaurants
+cor(aggregated_data_wide$naturepark, aggregated_data_wide$restaurants)
+
 # healthcare vs grocery stores
 cor(aggregated_data_wide$healthcare, aggregated_data_wide$grocery)
 # department vs schools
@@ -131,6 +138,36 @@ cor(aggregated_data_wide_prepandemic$naturepark, aggregated_data_wide_prepandemi
 ggplot() + geom_point(data = aggregated_data_wide_pandemic, mapping = 
                         aes(x =naturepark, y = grocery))+ ggtitle("Pandemic: Natureparks vs. Grocery")
 cor(aggregated_data_wide_pandemic$naturepark, aggregated_data_wide_pandemic$grocery)
+
+#nature parks vs schools
+##prepandemic
+ggplot() + geom_point(data = aggregated_data_wide_prepandemic, mapping = 
+                        aes(x =naturepark, y = schools))+ ggtitle("Prepandemic: Natureparks vs. Schools")
+cor(aggregated_data_wide_prepandemic$naturepark, aggregated_data_wide_prepandemic$schools)
+##pandemic
+ggplot() + geom_point(data = aggregated_data_wide_pandemic, mapping = 
+                        aes(x =naturepark, y = schools))+ ggtitle("Pandemic: Natureparks vs. Schools")
+cor(aggregated_data_wide_pandemic$naturepark, aggregated_data_wide_pandemic$schools)
+
+#nature parks vs department
+##prepandemic
+ggplot() + geom_point(data = aggregated_data_wide_prepandemic, mapping = 
+                        aes(x =naturepark, y = department))+ ggtitle("Prepandemic: Natureparks vs. Department")
+cor(aggregated_data_wide_prepandemic$naturepark, aggregated_data_wide_prepandemic$department)
+##pandemic
+ggplot() + geom_point(data = aggregated_data_wide_pandemic, mapping = 
+                        aes(x =naturepark, y = department))+ ggtitle("Pandemic: Natureparks vs. Department")
+cor(aggregated_data_wide_pandemic$naturepark, aggregated_data_wide_pandemic$department)
+
+#nature parks vs restaurants
+##prepandemic
+ggplot() + geom_point(data = aggregated_data_wide_prepandemic, mapping = 
+                        aes(x =naturepark, y = restaurants))+ ggtitle("Prepandemic: Natureparks vs. Restaurants")
+cor(aggregated_data_wide_prepandemic$naturepark, aggregated_data_wide_prepandemic$restaurants)
+##pandemic
+ggplot() + geom_point(data = aggregated_data_wide_pandemic, mapping = 
+                        aes(x =naturepark, y = restaurants))+ ggtitle("Pandemic: Natureparks vs. Restaurants")
+cor(aggregated_data_wide_pandemic$naturepark, aggregated_data_wide_pandemic$restaurants)
 
 #healthcare vs grocery
   ##prepandemic
