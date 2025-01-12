@@ -60,7 +60,8 @@ NAICS_data$date = as.Date(NAICS_data$date)
 NAICS_data$NAICS = as.factor(NAICS_data$NAICS)
 
 ggplot() + geom_line(data=NAICS_data, mapping = aes(x=date,
-                                                    y = num_normalized, colour = NAICS , group = NAICS)) + scale_colour_brewer(palette="Set1")
+                                                    y = num_normalized, colour = NAICS , group = NAICS)) + scale_colour_brewer(palette="Set1") +
+  scale_y_continuous(limits = c(0,2.5))
 
 
 
@@ -79,11 +80,13 @@ aggregated_data <- NAICS_data %>%
   group_by(date,agg_group) %>%
   summarise(total_num_normalized = mean(num_normalized))
 
-ggplot(data = aggregated_data, aes(x = date, y = total_num_normalized, color = agg_group, group = agg_group)) +
+aggregated_data$agg_group_2 = factor(aggregated_data$agg_group, levels = c("44","45","61","62","71","72"),
+                                     labels = c("Grocery","Department","Schools","Doctors","Parks","Restaurants"))
+ggplot(data = aggregated_data, aes(x = date, y = total_num_normalized, color = agg_group_2, group = agg_group_2)) +
   geom_line() +
-  labs(title = "Average Visits to Healthcare Facilities",
+  labs(title = "Average Visits",
        x = "Date",
-       y = "Average Number of Visits") +
+       y = "Relative Number of Visits") +
   theme_minimal()
 
 ggplot(data = subset(aggregated_data,agg_group == 62), aes(x = date, y = total_num_normalized, color = agg_group, group = agg_group)) +
@@ -93,8 +96,8 @@ ggplot(data = subset(aggregated_data,agg_group == 62), aes(x = date, y = total_n
        y = "Average Number of Visits") +
   theme_minimal()
 
-
-aggregated_data_wide = pivot_wider(aggregated_data,names_from = agg_group,values_from=total_num_normalized)
+aggreated_data_2=subset(aggregated_data, select= -c(agg_group_2))
+aggregated_data_wide = pivot_wider(aggreated_data_2,names_from = agg_group,values_from=total_num_normalized)
 aggregated_data_wide$date = as.Date(aggregated_data_wide$date)
 names(aggregated_data_wide) = c("date","grocery","department","schools","healthcare","naturepark","restaurants")
 #### March 13 - compare various groups
