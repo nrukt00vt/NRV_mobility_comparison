@@ -99,30 +99,71 @@ for (i in 1:nrow(aggregated_data)){
 }
 aggregated_data$normalized_by_date = aggregated_data$total_num_normalized/aggregated_data$date_num
 aggregated_data_2 = aggregated_data[,c("date", "agg_group","normalized_by_date")]
+aggregated_data_wide = pivot_wider(aggregated_data,names_from = agg_group,values_from=total_num_normalized)
+aggregated_data$date_num = 0
+for (i in 1:nrow(aggregated_data)){
+  aggregated_data$date_num[i] = mean(subset(aggregated_data,date == aggregated_data$date[i])$total_num_normalized)
+}
+aggregated_data$normalized_by_date = aggregated_data$total_num_normalized/aggregated_data$date_num
+aggregated_data_2 = aggregated_data[,c("date", "agg_group","normalized_by_date")]
 aggregated_data_wide = pivot_wider(aggregated_data_2,names_from = agg_group,values_from=normalized_by_date)
 aggregated_data_wide$date = as.Date(aggregated_data_wide$date)
 names(aggregated_data_wide) = c("date","grocery","department","schools","healthcare","naturepark","restaurants")
 #### March 13 - compare various groups
+aggregated_wide_pre = subset(aggregated_data_wide, date < "2020-03-15")
 
+test_cor_pre = as.data.frame(subset(aggregated_wide_pre , select = -c(date)))
+corplot_pre = cor(test_cor_pre, method = c("spearman"))
+corrplot(as.matrix(corplot_pre))
+
+aggregated_wide_post = subset(aggregated_data_wide, date > "2020-03-15")
+
+test_cor_post = as.data.frame(subset(aggregated_wide_post , select = -c(date)))
+corplot_post = cor(test_cor_post, method = c("spearman"))
+corrplot(as.matrix(corplot_post))
 
 #correlation
 # nature parks vs healthcare
-cor(aggregated_data_wide$naturepark, aggregated_data_wide$healthcare)
+aggregated_data_wide_pre = subset(aggregated_data_wide, date < "2020-03-15")
 
-ggplot()+ geom_point(data = aggregated_data_wide, mapping = 
+
+cor(aggregated_data_wide_pre$naturepark, aggregated_data_wide_pre$healthcare)
+
+ggplot()+ geom_point(data = aggregated_data_wide_pre, mapping = 
                        aes(x =naturepark, y = healthcare, colour=date))+
   scale_colour_date(low = "green", high = "#F11B00")+
   ggtitle("Prepandemic: Natureparks vs. Healthcare")
 # nature parks vs grocery stores
-cor(aggregated_data_wide$naturepark, aggregated_data_wide$grocery)
+cor(aggregated_data_wide_pre$naturepark, aggregated_data_wide_pre$grocery)
 # healthcare vs grocery stores
-cor(aggregated_data_wide$healthcare, aggregated_data_wide$grocery)
+cor(aggregated_data_wide_pre$healthcare, aggregated_data_wide_pre$grocery)
 # department vs schools
-cor(aggregated_data_wide$department, aggregated_data_wide$schools)
+cor(aggregated_data_wide_pre$department, aggregated_data_wide_pre$schools)
 # grocery vs restaurants
-cor(aggregated_data_wide$grocery, aggregated_data_wide$restaurants)
+cor(aggregated_data_wide_pre$grocery, aggregated_data_wide_pre$restaurants)
 # schools vs healthcare
-cor(aggregated_data_wide$schools, aggregated_data_wide$healthcare)
+cor(aggregated_data_wide_pre$schools, aggregated_data_wide_pre$healthcare)
+
+# nature parks vs healthcare
+aggregated_data_wide_post = subset(aggregated_data_wide, date > "2020-03-15")
+
+
+cor(aggregated_data_wide_post$naturepark, aggregated_data_wide_post$healthcare)
+
+ggplot()+ geom_point(data = aggregated_data_wide_post, mapping = 
+                       aes(x =naturepark, y = healthcare, colour=date))+
+  scale_colour_date(low = "green", high = "#F11B00")+
+  ggtitle("postpandemic: Natureparks vs. Healthcare")
+# nature parks vs grocery stores
+cor(aggregated_data_wide_post$naturepark, aggregated_data_wide_post$grocery)
+# healthcare vs grocery stores
+cor(aggregated_data_wide_post$healthcare, aggregated_data_wide_post$grocery)
+# department vs schools
+cor(aggregated_data_wide_post$department, aggregated_data_wide_post$schools)
+# grocery vs restaurants
+cor(aggregated_data_wide_post$grocery, aggregated_data_wide_post$restaurants)
+# schools vs healthcare
+cor(aggregated_data_wide_post$schools, aggregated_data_wide_post$healthcare)
 
 
 #next, divide into pre-pandemic and pandemic
