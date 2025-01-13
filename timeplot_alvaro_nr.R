@@ -93,8 +93,13 @@ ggplot(data = subset(aggregated_data,agg_group == 62), aes(x = date, y = total_n
        y = "Average Number of Visits") +
   theme_minimal()
 
-
-aggregated_data_wide = pivot_wider(aggregated_data,names_from = agg_group,values_from=total_num_normalized)
+aggregated_data$date_num = 0
+for (i in 1:nrow(aggregated_data)){
+  aggregated_data$date_num[i] = mean(subset(aggregated_data,date == aggregated_data$date[i])$total_num_normalized)
+}
+aggregated_data$normalized_by_date = aggregated_data$total_num_normalized/aggregated_data$date_num
+aggregated_data_2 = aggregated_data[,c("date", "agg_group","normalized_by_date")]
+aggregated_data_wide = pivot_wider(aggregated_data_2,names_from = agg_group,values_from=normalized_by_date)
 aggregated_data_wide$date = as.Date(aggregated_data_wide$date)
 names(aggregated_data_wide) = c("date","grocery","department","schools","healthcare","naturepark","restaurants")
 #### March 13 - compare various groups
@@ -178,6 +183,11 @@ test_cor_pre = as.data.frame(subset(aggregated_wide_pre , select = -c(date)))
 corplot_pre = cor(test_cor_pre, method = c("spearman"))
 corrplot(as.matrix(corplot_pre))
 aggregated_wide_pre = subset(aggregated_data_wide, date > "2020-03-15")
+test_cor_pre = as.data.frame(subset(aggregated_wide_pre , select = -c(date)))
+corplot_pre = cor(test_cor_pre, method = c("spearman"))
+corrplot(as.matrix(corplot_pre))
+aggregated_wide_pre =aggregated_data_wide# subset(aggregated_data_wide, date > "2020-03-15")
+
 test_cor_pre = as.data.frame(subset(aggregated_wide_pre , select = -c(date)))
 corplot_pre = cor(test_cor_pre, method = c("spearman"))
 corrplot(as.matrix(corplot_pre))
