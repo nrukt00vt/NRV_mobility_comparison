@@ -114,7 +114,8 @@ aggregated_wide_pre = subset(aggregated_data_wide, date < "2020-03-15")
 
 test_cor_pre = as.data.frame(subset(aggregated_wide_pre , select = -c(date)))
 corplot_pre = cor(test_cor_pre, method = c("spearman"))
-corrplot(as.matrix(corplot_pre))
+library(corrplot)
+corrplot(as.matrix(corplot_pre),method = "color", type="lower")
 
 aggregated_wide_post = subset(aggregated_data_wide, date > "2020-03-15")
 
@@ -122,6 +123,7 @@ test_cor_post = as.data.frame(subset(aggregated_wide_post , select = -c(date)))
 corplot_post = cor(test_cor_post, method = c("spearman"))
 corrplot(as.matrix(corplot_post))
 
+corrplot(as.matrix(corplot_post),method = "color", type="lower")
 #correlation
 # nature parks vs healthcare
 aggregated_data_wide_pre = subset(aggregated_data_wide, date < "2020-03-15")
