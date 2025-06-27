@@ -29,9 +29,10 @@ time_data_merged=subset(time_data_merged, !is.element(city,c("Leesburg","Lansdow
 #Aggregate by NAICS code; this means we will sum up all the different doctors for each NAICS code to get one result per NAICS code
 # $ in between is the data set's specified field.
 # FUN: function will be a sum.
+time_data_merged$naics_code_2 = substr(time_data_merged$naics_code,1,2)
 #Aggregate: get the summary stats of the data group
 NAICS_aggregate = aggregate(time_data_merged$number , 
-                            by=list(time_data_merged$date,time_data_merged$naics_code), FUN = sum)
+                            by=list(time_data_merged$date,time_data_merged$naics_code_2), FUN = sum)
 
 # these declare the names of each data set into vectors
 names(NAICS_aggregate) = c("date","NAICS","num")
@@ -59,8 +60,11 @@ NAICS_data$date = as.Date(NAICS_data$date)
 
 NAICS_data$NAICS = as.factor(NAICS_data$NAICS)
 
+NAICS_data$NAICS_name = revalue(NAICS_data$NAICS, c(
+  "44" = "Grocery", "45" = "Department", "61" = "Schools", "62" = "Healthcare",
+  "71" = "Recreation", "72" = "Restaurants"))
 ggplot() + geom_line(data=NAICS_data, mapping = aes(x=date,
-                                                    y = num_normalized, colour = NAICS , group = NAICS)) + scale_colour_brewer(palette="Set1")
+                                                    y = num_normalized, colour = NAICS_name , group = NAICS_name)) + scale_colour_brewer(palette="Set1")
 
 
 
