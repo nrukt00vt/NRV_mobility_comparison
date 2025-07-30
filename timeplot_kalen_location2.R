@@ -17,12 +17,10 @@ time_data = subset(time_data, !is.na(time_data$visitor_home_cbg))
 time_data_merged = merge(time_data,health_POIs,by.x="safegraph_place",by.y="safegraph_place_id")
 
 
-#Subset the data so that you only have the 3 desired locations; below will subset just one as an example
-time_data_merged = subset(time_data_merged, is.element(location_name, c("Carilion Clinic Family Medicine Dublin","Kipps Elem", "MedExpress Urgent Care", "Lewisgale Hospital Montgomery")))
 
 #Aggregate by NAICS code; this means we will sum up all the different doctors for each NAICS code to get one result per NAICS code
-NAICS_aggregate = aggregate(time_data_merged$number , by=list(time_data_merged$date,time_data_merged$location_name), FUN = sum)
-names(NAICS_aggregate) = c("date","location","num")
+NAICS_aggregate = aggregate(time_data_merged$number , by=list(time_data_merged$date,time_data_merged$safegraph_place, time_data_merged$naics_code), FUN = sum)
+names(NAICS_aggregate) = c("date","location","naics","num")
 
 #Here, we will normalize the values per NAICS code. If we tried to plot them without doing this, we would have some numbers way greater than others 
 #For example, the average number of people visiting NAICS 621111 (physicians) is 1-2K, whilethe average number visiting 621340 (physical/occupational/speech therapists) is more like 100
@@ -37,42 +35,76 @@ for (code in unique_codes){
   sub_data$num_normalized = sub_data$num / median(sub_data$num)
   NAICS_data = rbind(NAICS_data, sub_data)
 }
+NAICS_data$naics_sub = substr(NAICS_data$naics,1,2)
 
-aggregate(NAICS_data$num, by = list(NAICS_data$location), FUN = median)
-aggregate(NAICS_data$num, by = list(NAICS_data$location), FUN = function(x){ quantile(x, probs = c(.1, .5 , .9))})
-datanew = as.data.frame(datax$x)
-dataall=data.frame(loc = datax$Group.1)
-dataall$x10 = datax$x[,1]
-dataall$x50 = datax$x[,2]
-dataall$x90 = datax$x[,3]
-dataall = dataall[order(dataall$x50,decreasing = T),]
-#this makes things like 622110 NAICS a variable
-#Plotting
-NAICS_data$date = as.Date(NAICS_data$date)
-NAICS_data$location = as.factor(NAICS_data$location)
-ggplot() + geom_line(data=NAICS_data, mapping = aes(x=date, y = num_normalized, colour = location , group = location),size = 1) + scale_colour_brewer(palette="Set1")
+agg_NAICS = aggregate(NAICS_data$num, by =list(NAICS_data$location), FUN = median )
+names(agg_NAICS) = c("location","num_median")
+
+agg_NAICS$cat_num = cut(agg_NAICS$num_median, breaks = c(0,5,50, Inf))
+agg_NAICS = merge(agg_NAICS, health_POIs, by.x = "location", by.y = "safegraph_place_id")
+uniquelocs = unique(NAICS_data[c("location","naics_sub")])
+uniquelocs = merge(uniquelocs,agg_NAICS,by="location")
+uniquelocs_NRV=subset(uniquelocs, !is.element(city,c("Leesburg","Lansdowne")))
+uniquelocs_NOVA=subset(uniquelocs, is.element(city,c("Leesburg","Lansdowne")))
+
+
+
 
 library(dplyr)
-time_data_pts <- time_data_merged[!duplicated(time_data_merged$safegraph_place), ]
-testpts = st_as_sf(time_data_pts, coords = c("longitude","latitude"))
+testout_NRV = uniquelocs %>% group_by(naics_sub,cat_num) %>% slice_sample(n=2)
+testout_NOVA = uniquelocs %>% group_by(naics_sub,cat_num) %>% slice_sample(n=1)
 
 
+testout2 = rbind(testout_NRV,testout_NOVA)
 
-library(sf)
-library(tidyverse)
-library(lubridate)
+testpts = st_as_sf(testout2, coords = c("longitude","latitude"))
 
-#Read in the shapefile as an "sf" object
-shapefile = read_sf(dsn ="base_files", layer= "tl_2019_51_bg")
-#Choose HealthPOIs_Montgomery_VA.csv
-shapefile = subset(shapefile,is.element(COUNTYFP,c("063","121","155","750","071")))
 
 testpts= st_set_crs(testpts,st_crs(shapefile))
-ggplot() + geom_sf(shapefile, mapping = aes()) + geom_sf(testpts, mapping = aes(), color = "red")
-write_sf(testpts,dsn = "test_points", driver= "ESRI Shapefile")
-Carilion Clinic Family Medicine Dublin    8.0   20.0   32.0
-Kipps Elem 4.0   16.0   34.2
-Lewis Gale Physicians
-Lewisgale Hospital Montgomery
+test_points = testpts
+
+NAICS_data_sub = subset(NAICS_data, is.element(location, test_points$location))
+
+#Plotting
+NAICS_data_sub$date = as.Date(NAICS_data_sub$date)
+
+
+ggplot() + geom_line(data=NAICS_data_sub, mapping = aes(x=date,
+                                                        y = num_normalized, colour = location , group = location)) +scale_colour_discrete(guide = "none")
+
+
+subset(NAICS_data_sub, num_normalized>6)$location
+subset(health_POIs, safegraph_place_id ==subset(NAICS_data_sub, num_normalized>6)$location)
+testpts = subset(testpts, location !=subset(NAICS_data_sub, num_normalized>6)$location)
 #not sure if possible with given data, but could think about mapping individuals to see if one person made a trip to a healthcare facility multiple times
 #could do research and see if there were any Covid-19 spikes in the NRV area and see if it correlates with any of the spikes or drops in visits during the time period
+
+library(sf)
+test_shp = st_read(dsn = "D:/Downloads/VirginiaBuildingFootprint.shp", layer = "VirginiaBuildingFootprint")
+shapefile = read_sf(dsn ="base_files", layer= "tl_2019_51_bg")
+testpts= st_set_crs(testpts,st_crs(shapefile))
+test_points = testpts
+
+st_can_transform(test_shp, test_points)
+test_shp = st_transform(test_shp,st_crs(test_points))
+
+test_shp_valid = test_shp[st_is_valid(test_shp)==TRUE,]
+
+out <- st_nearest_feature(test_points, test_shp_valid)
+ggplot(test_shp_valid[out,]) + geom_sf()
+testpoly = st_zm( test_shp_valid[out,])
+testpoly$naics_code = test_points$naics_code
+testpoly$location_name = test_points$location_name
+write_sf(testpoly, dsn="testshp_final.shp")
+st_write(testpoly, "testshp3_final.shp")
+
+NAICS_data_sub = subset(NAICS_data, is.element(location, test_points$location))
+
+#Plotting
+NAICS_data_sub$date = as.Date(NAICS_data_sub$date)
+
+
+ggplot() + geom_line(data=NAICS_data_sub, mapping = aes(x=date,
+                                                    y = num_normalized, colour = location , group = location)) +scale_colour_discrete(guide = "none")
+
+
